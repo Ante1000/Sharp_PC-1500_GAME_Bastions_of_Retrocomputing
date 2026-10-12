@@ -8,7 +8,7 @@
 45 GA(I) = W * 300 * I : NEXT I
 50 AT = 5 : JH = 0 : MC = 2 : CR = 20 : BS = 4 : RE = 0 : GD = 1000 : SP = 0
 60 WAIT 0 : PRINT "PROFANE ATTACK v1.6" : RESTORE 990 : GOSUB 850
-62 WAIT 128 : PRINT "CONQUER THE PLACES 0-9!"
+62 WAIT 128 : PRINT "CONQUER THE PLACES OF FAITH"
 100 WAIT 0 : PRINT "FIGHT/BUY/SELL/RES/END?"
 110 GOSUB 900 : IF KY$ = "F" GOTO 200
 120 IF KY$ = "B" GOTO 600
@@ -61,7 +61,7 @@
 350 FOR I = 1 TO W : IF RND (3) = 1 THEN LET Z = Z + 1
 352 NEXT I
 355 AT = AT + Z : WAIT
-360 PRINT STR$ (GA(N)); " GOLD "; STR$ (RA(N)); " REL "; STR$ (X); " CROS"
+360 PRINT STR$ (GA(N)); " GOLD "; STR$ (RA(N)); " RELICS "; STR$ (X); " CROS"
 362 WAIT 128 : PRINT "AND ALSO YOU GOT:" : E = N + 1 : GOSUB 870
 363 WAIT : PRINT LS$(0)
 365 GOSUB 860 : PRINT "GOT "; STR$ (Y); " NEW MERC, "; STR$ (Z); " ANTI"
@@ -81,14 +81,14 @@
 449 REM --- AFTER EVERY FIGHT: PEOPLE LEFT? ALL PLACES TAKEN? ---
 450 SP = 0 : IF AT + MC + JH > 0 GOTO 470
 455 WAIT 0 : PRINT "NO PEOPLE LEFT!" : RESTORE 960 : GOSUB 850
-460 WAIT 128 : PRINT "GAME OVER  Cathodics win!"
-461 PRINT "...but you have got..."
-462 LS$(0) = "satisfaction" : IF E = 0 GOTO 464
+460 WAIT 128 : PRINT "GAME OVER! Cathodics won"
+461 PRINT " ..but you have got..."
+462 LS$(0) = "lesson in humility" : IF E = 0 GOTO 464
 463 GOSUB 870
 464 WAIT 0 : PRINT LS$(0) : RESTORE 992 : GOSUB 850 : WAIT : PRINT LS$(0) : END
 470 S = 0 : FOR I = 0 TO 9 : S = S + MI(I) : NEXT I : IF S > 0 GOTO 100
 475 WAIT 0 : PRINT "ALL PLACES ARE YOURS!" : RESTORE 950 : GOSUB 850
-480 WAIT : PRINT "YOU WIN THE WAR!" : END
+480 WAIT : PRINT "YOU WON WITH CATHODICS!" : RESTORE 990: GOSUB850: END
 499 REM --- LIST OF THE PLACES, ONE A SECOND ---
 500 WAIT 64 : FOR I = 0 TO 9 : IF MI(I) > 0 GOTO 505
 502 PRINT STR$ (I); " "; PL$(I); ": YOURS" : GOTO 510
@@ -126,8 +126,7 @@
 728 PRINT "GOLD NOW "; STR$ (GD) : GOTO 702
 740 REM --- RESOURCES ---
 750 WAIT 64 : PRINT "YOU HAVE:" : WAIT
-755 PRINT "ANTICLERICALS "; STR$ (AT)
-757 PRINT "MERC "; STR$ (MC); " JIHAD "; STR$ (JH)
+755 PRINT "ANTI "; STR$ (AT);"MERC "; STR$ (MC); "JIHAD "; STR$ (JH)
 760 PRINT "CROSS "; STR$ (CR); " BRIMSTONES "; STR$ (BS)
 765 PRINT "GOLD "; STR$ (GD); " RELICS "; STR$ (RE) : GOTO 100
 790 WAIT 0 : PRINT "QUIT GAME (Y/N)?" : GOSUB 900 : IF KY$ <> "Y" GOTO 100
@@ -164,10 +163,10 @@
 970 DATA "Lourdes", "Fatima", "Altotting", "Santiago de C.", "Jasna Gora"
 975 DATA "Avila", "Loreto", "Hohensalzburg", "Weltenburg", "Vatican"
 978 REM --- WHAT ELSE YOU GET AT THE PLACES 0-9 ---
-980 DATA "barrel of holy water", "Crown of Our Lady", "Black Madonna statue"
-982 DATA "giant censer", "Miraculous Image", "St. Teresa Portable Altar"
-984 DATA "stones from Nazareth", "mechanical organ", "pints of monastic beer"
-986 DATA "Botticelli paintings"
+980 DATA "barrel of Holy Water", "Crown of Our Lady", "Black Madonna statue"
+982 DATA "Giant Censer", "Miraculous Image", "St. Teresa Portable Altar"
+984 DATA "Stones from Nazareth", "Mechanical organ", "Pints of monastic beer"
+986 DATA "Botticelli paintings etc."
 988 REM --- BACH, TOCCATA IN D MINOR: PHRASE 1 (990-991), PHRASE 2 (992-994) ---
 990 DATA 61, 106, 69, 95, 61, 794, 69, 102, 79, 90, 84, 85, 95, 76, 101, 249
 991 DATA 95, 585
