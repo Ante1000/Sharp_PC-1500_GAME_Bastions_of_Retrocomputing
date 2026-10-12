@@ -35,10 +35,10 @@
 255 CR = CR - C : BS = BS - B : WAIT 0 : PRINT "ENTER=FIGHT  3=RETREAT"
 260 GOSUB 900 : IF G$ = "3" THEN LET CR = CR + C : BS = BS + B : GOTO 100
 265 IF G$ <> CHR$ (13) GOTO 260
-270 FOR H = 1 TO 2 : CLS : FOR I = 0 TO 12 : CURSOR I : PRINT ">"
-272 CURSOR 25 - I : PRINT "<" : NEXT I : BEEP 6 : NEXT H
+270 FOR J = 1 TO 2 : CLS : FOR I = 0 TO 12 : CURSOR I : PRINT ">"
+272 CURSOR 25 - I : PRINT "<" : NEXT I : BEEP 6 : NEXT J
 275 WAIT 64 : PRINT "FIGHT RESULTS"
-280 M = MI(N) : LA = 0 : LM = 0 : LJ = 0 : R = 0
+280 M = MI(N) : A = 0 : L = 0 : H = 0 : R = 0
 285 REM --- ROUNDS: YOUR WEAPONS STRIKE, THEN THE MILITANTS ---
 290 R = R + 1 : Q = .5 : T = C : GOSUB 800 : X = K
 292 T = B : GOSUB 800 : X = X + 3 * K
@@ -46,17 +46,20 @@
 300 IF M = 0 GOTO 330
 305 T = M : GOSUB 800 : X = K : T = 0
 307 IF X >= AT THEN LET X = AT : T = M - 2 * AT
-310 AT = AT - X : LA = LA + X : Q = .3 : GOSUB 800 : IF K > MC THEN LET K = MC
-315 MC = MC - K : LM = LM + K : T = INT (M / 5) : Q = .5 : GOSUB 800
+310 AT = AT - X : A = A + X : Q = .3 : GOSUB 800 : IF K > MC THEN LET K = MC
+315 MC = MC - K : L = L + K : T = INT (M / 5) : Q = .5 : GOSUB 800
 320 IF K > JH THEN LET K = JH
-322 JH = JH - K : LJ = LJ + K
+322 JH = JH - K : H = H + K
 324 PRINT "ROUND"; STR$ (R); ": CC "; STR$ (M); " vs YOU "; STR$ (AT + MC + JH)
 326 IF AT + MC + JH > 0 GOTO 290
 328 GOTO 400
 329 REM --- YOU WON ---
-330 X = RND (10) * N : CR = CR + X : GD = GD + GA(N) : RE = RE + RA(N)
-332 LS$(0) = "YOU WON: " + STR$ (GA(N)) + " GOLD" : WAIT 0 : PRINT LS$(0)
-335 RESTORE 950 : GOSUB 850 : WAIT 96 : PRINT LS$(0)
+330 WAIT 0 : X = RND (10) * N : CR = CR + X : GD = GD + GA(N) : RE = RE + RA(N)
+332 LS$(0) = "YOU WON! " + PL$(N) + " IS YOURS" : PRINT LEFT$ (LS$(0), 26)
+334 RESTORE 950 : GOSUB 850 : I = 0 : V = LEN (LS$(0)) - 25
+335 I = I + 1 : WAIT 16 : IF I >= V WAIT 96
+336 PRINT MID$ (LS$(0), I, 26) : IF I < V GOTO 335
+338 PRINT "YOU GOT "; STR$ (GA(N)); " GOLD"
 340 PRINT STR$ (RA(N)); " RELICS "; STR$ (X); " CROSSES"
 342 Y = INT (MI(N) / 4) : MC = MC + Y
 345 Z = 0 : W = INT (GA(N) / 300) : IF W = 0 GOTO 355
@@ -143,11 +146,11 @@
 848 REM --- MELODY FROM DATA: TONE, LENGTH ... 0,0 ---
 850 READ U, D : IF U = 0 RETURN
 855 BEEP 1, U, D : GOTO 850
-858 REM --- YOUR LOSSES IN ONE LINE ---
-860 LS$(0) = "LOST:" + STR$ (LM) + " MERC " + STR$ (LA) + " ANTI "
-862 LS$(0) = LS$(0) + STR$ (LJ) + " JIH"
+858 REM --- YOUR LOSSES IN ONE LINE: L MERC, A ANTI, H JIH ---
+860 LS$(0) = "LOST:" + STR$ (L) + " MERC " + STR$ (A) + " ANTI "
+862 LS$(0) = LS$(0) + STR$ (H) + " JIH"
 864 IF LEN (LS$(0)) <= 26 GOTO 866
-865 LS$(0) = "LOST:" + STR$ (LM) + "M " + STR$ (LA) + "A " + STR$ (LJ) + "J"
+865 LS$(0) = "LOST:" + STR$ (L) + "M " + STR$ (A) + "A " + STR$ (H) + "J"
 866 PRINT LS$(0) : RETURN
 868 REM --- LS$(0) = THE TREASURE OF THE LAST PLACE WON (E = PLACE + 1) ---
 870 RESTORE 980 : FOR I = 1 TO E : READ LS$(0) : NEXT I : RETURN
