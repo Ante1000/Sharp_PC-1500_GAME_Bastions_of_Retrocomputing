@@ -35,7 +35,7 @@
 265 IF G$ <> CHR$ (13) GOTO 260
 270 FOR J = 1 TO 2 : CLS : FOR I = 0 TO 12 : CURSOR I : PRINT ">"
 272 CURSOR 25 - I : PRINT "<" : NEXT I : BEEP 6 : NEXT J
-275 WAIT 64 : PRINT "FIGHT RESULTS"
+275 WAIT 64 : PRINT "FIGHTING!"
 280 M = MI(N) : A = 0 : L = 0 : H = 0 : R = 1 : Q = .35 : GOTO 325
 283 REM --- ROUNDS: WEAPONS HIT WITH CHANCE .35 THE 1ST TIME (280), LATER .5,
 284 REM THEN THE MILITANTS. 322-323: SCREENS AFTER THE 1ST STRIKE ---
@@ -48,9 +48,8 @@
 315 MC = MC - K : L = L + K : T = INT (M / 5) : Q = .5 : GOSUB 800
 320 IF K > JH THEN LET K = JH
 321 JH = JH - K : H = H + K : R = R + 1
-322 IF R = 2 WAIT 90 : IF C > 0 PRINT "Hurling inv. crosses!"
+322 IF R = 2 AND C > 0 PRINT "Hurling inv. crosses!"
 323 IF R = 2 AND B > 0 PRINT "Spewing brimstones!"
-324 WAIT 64
 325 PRINT "ROUND"; STR$ (R); ": CC "; STR$ (M); " vs YOU "; STR$ (AT + MC + JH)
 326 IF M = 0 GOTO 330
 327 IF AT + MC + JH > 0 GOTO 290
