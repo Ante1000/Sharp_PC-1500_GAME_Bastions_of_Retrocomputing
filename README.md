@@ -1,0 +1,40 @@
+# PROFANE ATTACK
+
+A strategy game in BASIC for the Sharp PC-1500, PC-1500A and Tandy PC-2.
+
+## The game
+
+The CC holds ten places, numbered 0 to 9, from Lourdes to the Vatican. Each place is defended
+by militants and keeps relics and gold. You lead atheists, mercenaries and jihadists, armed
+with inverted crosses and brimstones. Conquer all ten places to win the war; if you lose all
+your people, the CC wins.
+
+- **F – Fight:** choose a place, decide how many crosses and brimstones to use, then fight or
+  retreat. The fight goes on round by round until one side has nobody left. A conquered place
+  gives you its gold and relics, some crosses, and a quarter of its militants join you as
+  mercenaries.
+- **B – Buy:** inverted crosses (25 gold), brimstones (80) and jihadists (500). Jihadists
+  stay with you for the next fights.
+- **S – Sell:** relics, at a price that changes after every fight.
+- **R – Resources** and **E – End**.
+
+The first places are easy and every next one is harder. Places 7, 8 and 9 are rich places,
+with twice as many militants, relics and gold.
+
+Full rules: [instructions.pdf](instructions.pdf) ([instructions.docx](instructions.docx)).
+
+## Installation
+
+You need a PC-1500A, or a PC-1500 or PC-2 with a RAM module (CE-151 or larger): the game
+needs about 5.5 KB of memory. To load the recording you need the CE-150 (for the PC-2: the
+Radio Shack printer/cassette interface).
+
+1. Switch off the computer, insert it into the CE-150 and connect the audio output of a
+   computer or player to the EAR jack of the CE-150.
+2. Switch on, select PRO mode and type `NEW0` [ENTER], then `CLOAD` [ENTER].
+3. Play [profane_attack-v1.2.wav](profane_attack-v1.2.wav) (name on the tape: `PROFANE`,
+   about 6 minutes).
+4. Select RUN mode and type `RUN` [ENTER].
+
+You can also type in the listing [profane_attack-v1.2.txt](profane_attack-v1.2.txt). The
+place names in lines 970 and 975 contain small letters (SML key).
