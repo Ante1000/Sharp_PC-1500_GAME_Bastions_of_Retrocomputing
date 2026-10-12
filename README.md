@@ -5,7 +5,7 @@ A strategy game in BASIC for the Sharp PC-1500, PC-1500A and Tandy PC-2.
 ## The game
 
 The CATHODIC CHURCH holds ten places, numbered 0 to 9, from Lourdes to the Vatican. Each place is defended
-by militants and keeps valuable relics and gold. You lead atheists, mercenaries and jihadists, armed
+by militants and keeps valuable relics and gold. You lead anticlericals, mercenaries and jihadists, armed
 with inverted crosses and brimstones. Conquer all ten places to win the war; if you lose all
 your people, the Cathodic Church wins.
 
@@ -22,7 +22,7 @@ your people, the Cathodic Church wins.
 The first places are easy and every next one is harder. Places 7, 8 and 9 are rich places,
 with twice as many militants, relics and gold. The richest is Vatican (place 9).
 
-Full rules: [instructions_v1.5.pdf](instructions_v1.5.pdf) ([instructions_v1.5.docx](instructions_v1.5.docx)).
+Full rules: [instructions_v1.6.pdf](instructions_v1.6.pdf) ([instructions_v1.6.docx](instructions_v1.6.docx)).
 
 ## Installation
 
@@ -33,11 +33,11 @@ Radio Shack printer/cassette interface).
 1. Switch off the computer, insert it into the CE-150 and connect the audio output of a
    computer or player to the EAR jack of the CE-150.
 2. Switch on, select PRO mode and type `NEW0` [ENTER], then `CLOAD` [ENTER].
-3. Play [profane_attack-v1.5.wav](profane_attack-v1.5.wav) (name on the tape: `PROFANE`,
+3. Play [profane_attack-v1.6.wav](profane_attack-v1.6.wav) (name on the tape: `PROFANE`,
    about 6 minutes).
 4. Select RUN mode and type `RUN` [ENTER].
 
-You can also type in the listing [profane_attack-v1.5.txt](profane_attack-v1.5.txt). Leave
+You can also type in the listing [profane_attack-v1.6.txt](profane_attack-v1.6.txt). Leave
 out the REM lines: the recording does not contain them either, and with them the program
 would not leave enough memory for its variables on a PC-1500A. The place names and treasures in lines
 970–986 contain small letters (SML key).
