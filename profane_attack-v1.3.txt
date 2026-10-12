@@ -1,4 +1,4 @@
-10 REM *** PROFANE ATTACK v1.2: STRATEGY GAME FOR SHARP PC-1500(A), PC-2 ***
+10 REM *** PROFANE ATTACK v1.3: STRATEGY GAME FOR SHARP PC-1500(A), PC-2 ***
 20 REM YOU AGAINST CC: CONQUER THE PLACES 0-9. MENU KEYS F B S R E
 30 CLEAR : RANDOM : DIM PL$(9) * 14, MI(9), RA(9), GA(9), LS$(0) * 40
 35 REM MILITANTS GROW 1.75X PER PLACE. PLACES 7-9 ARE RICH: ALL DOUBLED
@@ -6,7 +6,7 @@
 42 MI(I) = W * INT (5 * 1.75 ^ I + 5 * I + .5) : RA(I) = W * 3 * I
 45 GA(I) = W * 300 * I : NEXT I
 50 AT = 5 : JH = 0 : MC = 2 : CR = 20 : BS = 4 : RE = 0 : GD = 1000 : SP = 0
-60 WAIT 128 : PRINT "PROFANE ATTACK v1.2" : PRINT "CONQUER THE PLACES 0-9!"
+60 WAIT 128 : PRINT "PROFANE ATTACK v1.3" : PRINT "CONQUER THE PLACES 0-9!"
 100 WAIT 0 : PRINT "FIGHT/BUY/SELL/RES/END?"
 110 GOSUB 900 : IF KY$ = "F" GOTO 200
 120 IF KY$ = "B" GOTO 600
@@ -60,6 +60,8 @@
 352 NEXT I
 355 AT = AT + Z : WAIT
 360 PRINT STR$ (GA(N)); " GOLD "; STR$ (RA(N)); " REL "; STR$ (X); " CROS"
+362 WAIT 128 : PRINT "AND ALSO YOU GOT:" : RESTORE 980
+363 FOR I = 0 TO N : READ LS$(0) : NEXT I : WAIT : PRINT LS$(0)
 365 GOSUB 860 : PRINT "GOT "; STR$ (Y); " NEW MERC AND "; STR$ (Z); " ATH"
 370 MI(N) = 0 : RA(N) = 0 : GA(N) = 0 : GOTO 450
 399 REM --- YOU LOST ---
@@ -140,3 +142,8 @@
 968 REM --- NAMES OF THE PLACES 0-9 ---
 970 DATA "Lourdes", "Fatima", "Altotting", "Santiago de C.", "Jasna Gora"
 975 DATA "Avila", "Loreto", "Hohensalzburg", "Weltenburg", "Vatican"
+978 REM --- WHAT ELSE YOU GET AT THE PLACES 0-9 ---
+980 DATA "barrel of holy water", "Crown of Our Lady", "Black Madonna statue"
+982 DATA "giant censer", "Miraculous Image", "St. Teresa Portable Altar"
+984 DATA "stones from Nazareth", "mechanical organ", "pints of monastic beer"
+986 DATA "Botticelli paintings"
