@@ -49,7 +49,7 @@
 320 IF K > JH THEN LET K = JH
 321 JH = JH - K : H = H + K : R = R + 1
 322 IF R = 2 WAIT 90 : IF C > 0 PRINT "Hurling inv. crosses!"
-323 IF R = 2 AND B > 0 WAIT 32 : PRINT "Spewing brimstones!"
+323 IF R = 2 AND B > 0 PRINT "Spewing brimstones!"
 324 WAIT 64
 325 PRINT "ROUND"; STR$ (R); ": CC "; STR$ (M); " vs YOU "; STR$ (AT + MC + JH)
 326 IF M = 0 GOTO 330
