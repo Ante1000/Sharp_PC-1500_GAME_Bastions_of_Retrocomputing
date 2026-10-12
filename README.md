@@ -27,7 +27,7 @@ Full rules: [instructions_v1.6.pdf](instructions_v1.6.pdf) ([instructions_v1.6.d
 ## Installation
 
 You need a PC-1500A, or a PC-1500 or PC-2 with a RAM module (CE-151 or larger): the game
-needs about 5.8 KB of memory. To load the recording you need the CE-150 (for the PC-2: the
+needs about 5.9 KB of memory. To load the recording you need the CE-150 (for the PC-2: the
 Radio Shack printer/cassette interface).
 
 1. Switch off the computer, insert it into the CE-150 and connect the audio output of a
