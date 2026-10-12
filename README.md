@@ -4,7 +4,7 @@ A strategy game in BASIC for the Sharp PC-1500, PC-1500A and Tandy PC-2.
 
 ## The game
 
-The CATHODIC CHURCH holds ten places, numbered 0 to 9, from Lourdes to the Vatican. Each place is defended
+The CATHODIC CHURCH - a fictional organisation - holds ten places, numbered 0 to 9, from Lourdes to the Vatican. Each place is defended
 by militants and keeps valuable relics and gold. You lead anticlericals, mercenaries and jihadists, armed
 with inverted crosses and brimstones. Conquer all ten places to win the war; if you lose all
 your people, the Cathodic Church wins.
