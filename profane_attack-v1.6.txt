@@ -36,23 +36,24 @@
 270 FOR J = 1 TO 2 : CLS : FOR I = 0 TO 12 : CURSOR I : PRINT ">"
 272 CURSOR 25 - I : PRINT "<" : NEXT I : BEEP 6 : NEXT J
 275 WAIT 64 : PRINT "FIGHT RESULTS"
-280 M = MI(N) : A = 0 : L = 0 : H = 0 : R = 1 : GOTO 324
-283 REM --- ROUND1 = FULL STRENGTH. WEAPONS HIT: 1ST TIME CHANCE .35, THEN .5;
-284 REM THEN THE MILITANTS STRIKE, AND THE NEXT ROUND SHOWS WHAT IS LEFT ---
-286 IF R = 1 WAIT 45 : Q = .35 : IF C > 0 PRINT "Hurling inv. crosses!"
-288 IF R = 1 AND B > 0 PRINT "Spewing brimstones!"
+280 M = MI(N) : A = 0 : L = 0 : H = 0 : R = 1 : Q = .35 : GOTO 325
+283 REM --- ROUNDS: WEAPONS HIT WITH CHANCE .35 THE 1ST TIME (280), LATER .5,
+284 REM THEN THE MILITANTS. 322-323: SCREENS AFTER THE 1ST STRIKE ---
 290 T = C : GOSUB 800 : X = K : T = B : GOSUB 800 : X = X + 3 * K
 295 T = JH : GOSUB 800 : X = X + 5 * K : M = M - X : IF M < 0 THEN LET M = 0
-300 IF M = 0 THEN LET K = 0 : GOTO 322
+300 IF M = 0 THEN LET K = 0 : GOTO 321
 305 Q = .5 : T = M : GOSUB 800 : X = K : T = 0
 307 IF X >= AT THEN LET X = AT : T = M - 2 * AT
 310 AT = AT - X : A = A + X : Q = .3 : GOSUB 800 : IF K > MC THEN LET K = MC
 315 MC = MC - K : L = L + K : T = INT (M / 5) : Q = .5 : GOSUB 800
 320 IF K > JH THEN LET K = JH
-322 JH = JH - K : H = H + K : R = R + 1 : WAIT 64
-324 PRINT "ROUND"; STR$ (R); ": CC "; STR$ (M); " vs YOU "; STR$ (AT + MC + JH)
+321 JH = JH - K : H = H + K : R = R + 1
+322 IF R = 2 WAIT 90 : IF C > 0 PRINT "Hurling inv. crosses!"
+323 IF R = 2 AND B > 0 WAIT 32 : PRINT "Spewing brimstones!"
+324 WAIT 64
+325 PRINT "ROUND"; STR$ (R); ": CC "; STR$ (M); " vs YOU "; STR$ (AT + MC + JH)
 326 IF M = 0 GOTO 330
-327 IF AT + MC + JH > 0 GOTO 286
+327 IF AT + MC + JH > 0 GOTO 290
 328 GOTO 400
 329 REM --- YOU WON ---
 330 WAIT 0 : X = RND (10) * N : CR = CR + X : GD = GD + GA(N) : RE = RE + RA(N)
