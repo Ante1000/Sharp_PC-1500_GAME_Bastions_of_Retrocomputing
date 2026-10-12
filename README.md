@@ -32,11 +32,11 @@ Radio Shack printer/cassette interface).
 1. Switch off the computer, insert it into the CE-150 and connect the audio output of a
    computer or player to the EAR jack of the CE-150.
 2. Switch on, select PRO mode and type `NEW0` [ENTER], then `CLOAD` [ENTER].
-3. Play [profane_attack-v1.3.wav](profane_attack-v1.3.wav) (name on the tape: `PROFANE`,
+3. Play [profane_attack-v1.4.wav](profane_attack-v1.4.wav) (name on the tape: `PROFANE`,
    about 5 minutes).
 4. Select RUN mode and type `RUN` [ENTER].
 
-You can also type in the listing [profane_attack-v1.3.txt](profane_attack-v1.3.txt). Leave
+You can also type in the listing [profane_attack-v1.4.txt](profane_attack-v1.4.txt). Leave
 out the REM lines: the recording does not contain them either, and with them the program
 would fill almost all the memory of a PC-1500A. The place names and treasures in lines
 970–986 contain small letters (SML key).
