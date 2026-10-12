@@ -7,7 +7,8 @@
 42 MI(I) = W * INT (5 * 1.75 ^ I + 5 * I + .5) : RA(I) = W * 3 * I
 45 GA(I) = W * 300 * I : NEXT I
 50 AT = 5 : JH = 0 : MC = 2 : CR = 20 : BS = 4 : RE = 0 : GD = 1000 : SP = 0
-60 WAIT 128 : PRINT "PROFANE ATTACK v1.6" : PRINT "CONQUER THE PLACES 0-9!"
+60 WAIT 0 : PRINT "PROFANE ATTACK v1.6" : RESTORE 990 : GOSUB 850
+62 WAIT 128 : PRINT "CONQUER THE PLACES 0-9!"
 100 WAIT 0 : PRINT "FIGHT/BUY/SELL/RES/END?"
 110 GOSUB 900 : IF KY$ = "F" GOTO 200
 120 IF KY$ = "B" GOTO 600
@@ -166,3 +167,7 @@
 982 DATA "giant censer", "Miraculous Image", "St. Teresa Portable Altar"
 984 DATA "stones from Nazareth", "mechanical organ", "pints of monastic beer"
 986 DATA "Botticelli paintings"
+988 REM --- J.S. BACH, TOCCATA IN D MINOR BWV 565: THE OPENING ---
+990 DATA 61, 106, 69, 95, 61, 794, 69, 102, 79, 90, 84, 85, 95, 76, 101, 249
+992 DATA 95, 585, 128, 53, 145, 47, 128, 397
+994 DATA 173, 99, 163, 105, 207, 83, 195, 294, 0, 0
