@@ -8,8 +8,9 @@ The CATHODIC CHURCH (CC) - a fictional organisation - holds ten places in Europe
 
 - **Satanists** spew brimstones, hellish stones of demonic sulphur (each Satanist one per round). You cannot buy them: they join you when
   you conquer a place.
-- **Mercenaries** are needed to hurl inverted crosses (each mercenary one per round) and stand in the front line: the
-  militants strike them first and reach the Satanists only when no mercenaries are left.
+- **Mercenaries** are needed to hurl inverted crosses, which, as everyone knows, are deeply terrifying to the
+  devout and the clergy, and lethal to their very souls (each mercenary hurls one per round). Mercenaries also stand
+  in the front line: the militants strike them first and reach the Satanists only when no mercenaries are left.
 - **Jihadists** fight on their own, without weapons, and their killing power is monstrous. They
   stay with you for the next fights, but militants hunt them, above all when they are far
   outnumbered.
