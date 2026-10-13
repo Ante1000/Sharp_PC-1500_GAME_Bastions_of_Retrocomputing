@@ -4,7 +4,7 @@ A strategy game in BASIC for the Sharp PC-1500, PC-1500A and Tandy PC-2.
 
 ## The game
 
-The CATHODIC CHURCH (CC) - a fictional organisation - holds ten places in Europe, called Bastions of Faith, from Lourdes to the Vatican (numbered 0-9). Each place is defended by militants and keeps valuable relics and gold. You lead Satanists, Mercenaries and Jihadists. Conquer all ten places to win the war; if you lose all your people, the Cathodic Church (CC) wins.
+The CATHODIC CHURCH (CC) - a fictional organisation with a profound interest in vintage computing - maintains ten places across Europe, called Bastions of Faith, from Lourdes to the Vatican (numbered 0-9). Each place is defended by militants and keeps valuable relics and gold. You lead Satanists, Mercenaries and Jihadists. Conquer all ten places to win the war; if you lose all your people, the Cathodic Church (CC) wins.
 
 - **Satanists** spew brimstones, hellish stones of demonic sulphur (each Satanist one per round). You cannot buy them: they join you when
   you conquer a place.
