@@ -49,9 +49,10 @@
 284 REM EACH MERC HURLS 1 CROSS, EACH SATANIST 1 BRIMSTONE; A JIHADIST KILLS 16
 286 REM AT MOST W = 1/3 FALL PER ROUND. BLOWS: MERCS FIRST, THEN SATANISTS.
 287 REM JIHADISTS: 5 MILITANTS .2, AND .4 EACH IF > 15 MILITANTS PER JIHADIST
+288 REM V, Z = CROSSES, BRIMSTONES THROWN; 322-323 SHOW THEM AFTER EVERY STRIKE
 290 T = C : IF T > MC LET T = MC
-291 GOSUB 800 : X = K : T = B : IF T > SA LET T = SA
-293 GOSUB 800 : X = X + 3 * K : T = JH : GOSUB 800 : X = X + 16 * K
+291 V = T : GOSUB 800 : X = K : T = B : IF T > SA LET T = SA
+293 Z = T : GOSUB 800 : X = X + 3 * K : T = JH : GOSUB 800 : X = X + 16 * K
 295 W = INT (MI(N) / 3) + 1 : IF X > W LET X = W
 300 M = M - X : IF M <= 0 LET M = 0 : K = 0 : GOTO 321
 305 Q = .35 : T = M : GOSUB 800 : X = K : T = 0
@@ -62,8 +63,8 @@
 317 JH = JH - K : H = H + K : T = 0 : IF M > 15 * JH LET T = JH
 319 Q = .4 : GOSUB 800
 321 JH = JH - K : H = H + K : R = R + 1 : Q = .5
-322 IF R = 2 AND C > 0 PRINT "Merc. hurl inv. crosses!"
-323 IF R = 2 AND B > 0 PRINT "Satanists spew brimstones!"
+322 IF V > 0 PRINT "Merc. hurl inv. crosses!"
+323 IF Z > 0 PRINT "Satanists spew brimstones!"
 325 PRINT "ROUND"; STR$ (R); ": CC "; STR$ (M); " vs YOU "; STR$ (SA + MC + JH)
 326 IF M = 0 GOTO 330
 327 IF SA + MC + JH > 0 GOTO 290
