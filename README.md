@@ -4,23 +4,26 @@ A strategy game in BASIC for the Sharp PC-1500, PC-1500A and Tandy PC-2.
 
 ## The game
 
-The CATHODIC CHURCH (CC) - a fictional organisation with a profound interest in vintage computing - maintains ten places across Europe, called Bastions of Faith, from Lourdes to the Vatican (numbered 0-9). In these bastions of retro computing the CC keeps its vintage and NOS treasures: old hardware from IBM, HP, Apple, Commodore, Atari, Sharp, Casio, NEC and others. They are revered and heavily protected, and no outsider is let in. The security systems of every bastion are run by TECH PRIESTS, who also guard its gold and its retro stuff. Your task is to conquer the bastions by breaking through the Tech Priests' defences. You lead Ghosts, Hackers and Gurus. Conquer all ten places to win the war; if you lose all your people, the Cathodic Church (CC) wins.
+The CATHODIC CHURCH (CC) - a fictional organisation with a profound interest in vintage computing - maintains ten places across Europe, called Bastions of Vintage IT, from Lourdes to the Vatican (numbered 0-9). In these bastions of retro computing the Cathodic Church keeps its vintage and NOS treasures: old hardware from IBM, HP, Apple, Commodore, Atari, Sharp, Casio, NEC and others. They are revered and heavily protected, and no outsider is let in. The security systems of every bastion are run by TECH PRIESTS, who also guard its gold and its retro stuff. Your task is to conquer the bastions by breaking through the Tech Priests' defences. You lead Ghosts, Hackers and Gurus. Conquer all ten places to win the war; if you lose all your people, the Cathodic Church wins.
 
-- **Ghosts** are silent, brilliant programmers who strike with surgical precision: their unholy
-  code finds every hole in the Tech Priests' systems - hidden bugs, plagues of worms, the
-  Miracle Exploit. They need API keys to attack (each ghost uses one per round; every key is
-  used only once). You cannot hire them: they join you when you conquer a place.
-- **Hackers** run Killer Drives: hard disks loaded with daemons, merge conflicts, legacy code,
+
+- **Hackers** run Killer Drives: HDDs loaded with Daemons, merge conflicts, legacy code,
   deadlocks and infinite loops, which drive the Tech Priests' machines into an infernal overheat
   or a thermal meltdown (each hacker runs one per round; every drive is used only once).
   Hackers also stand in the front line: the Tech Priests strike them first and reach the ghosts
   only when no hackers are left.
+
+- **Ghosts** are silent, brilliant programmers who strike with surgical precision: their unholy
+  code finds every hole in the Tech Priests' systems - hidden bugs, plagues of worms, the
+  Miracle Exploit. They need API keys to attack (each ghost uses one per round; every key is
+  used only once). You cannot hire them: they join you as volunteers when you conquer a place.
+  
 - **Gurus** fight on their own, without Killer Drives or API keys. They strike with a huge,
   carefully prepared Dependency Hell that paralyses the Tech Priests' systems, and their power
   is monstrous. They stay with you for the next fights, but Tech Priests hunt them, above all
   when they are far outnumbered.
 
-- **F – Fight:** choose a place, decide how many Killer Drives and API keys to take, then fight
+- **F – Fight:** choose a place, decide how many Killer Drives (HDDs) and API keys to take, then fight
   or retreat. Every Killer Drive and API key is used only once: in each round each hacker runs
   one drive and each ghost uses one key, until they are all used; those not used come back to
   you after a won fight. The fight goes on round by round until one side has nobody left; at
@@ -32,12 +35,8 @@ The CATHODIC CHURCH (CC) - a fictional organisation with a profound interest in 
   gurus (320). The game first shows how many of each you have.
 - **R – Resources** and **E – End**.
 
-The retro treasures, from Lourdes to the Vatican: Casio FX-602P, HP-41C calculator, 5.25
-floppy disks, Commodore CRT, 5MB Seagate HDD, Apple II with FDD, Atari Falcon, Apple LISA,
-Cray-1 system and the Vatican Mainframe.
-
 Every element counts: Killer Drives need hackers to run them, API keys need ghosts, hackers
-protect the ghosts, and gurus do what drives and keys cannot. Leave any of them out and you
+protect the ghosts, and gurus do what drives and demonic code cannot. Leave any of them out and you
 win clearly less often.
 
 The first places are easy and every next one is harder. Places 7, 8 and 9 are rich places,
