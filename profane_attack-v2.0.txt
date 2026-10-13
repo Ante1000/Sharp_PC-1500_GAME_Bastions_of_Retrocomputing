@@ -66,7 +66,7 @@
 321 JH = JH - K : H = H + K : R = R + 1 : Q = .5
 322 IF V > 0 PRINT "Hackers launch Killer HDD!"
 323 IF Z > 0 PRINT "Ghosts cast worms plague!"
-324 IF S > 0 PRINT "Gurus do Dependency Hell!"
+324 IF S > 0 PRINT "Gurus install Depend.Hell!"
 325 PRINT "ROUND"; STR$ (R); ":CC "; STR$ (M); " vs YOU "; STR$ (SA + MC + JH)
 326 IF M = 0 GOTO 330
 327 IF SA + MC + JH > 0 GOTO 290
