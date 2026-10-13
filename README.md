@@ -20,9 +20,11 @@ your people, the Cathodic Church wins.
 - **R – Resources** and **E – End**.
 
 The first places are easy and every next one is harder. Places 7, 8 and 9 are rich places,
-with twice as many militants, relics and gold. The richest is Vatican (place 9). Once you
-have conquered one of them, the Cathodics fight back: from time to time one of your places
-breaks free and has to be conquered again.
+with twice as many militants and twice as much gold, but not twice as many relics: what one of
+them gives you is not enough for the next one. Save gold and relics from the first places; if
+you use up all your gold in every fight, you will not get through Weltenburg and the Vatican
+(place 9), the richest of all. Once you have conquered a rich place, the Cathodics fight back:
+from time to time one of your places breaks free and has to be conquered again.
 
 Full rules: [instructions_v1.6.pdf](instructions_v1.6.pdf) ([instructions_v1.6.docx](instructions_v1.6.docx)).
 
@@ -36,7 +38,7 @@ Radio Shack printer/cassette interface).
    computer or player to the EAR jack of the CE-150.
 2. Switch on, select PRO mode and type `NEW0` [ENTER], then `CLOAD` [ENTER].
 3. Play [profane_attack-v1.6.wav](profane_attack-v1.6.wav) (name on the tape: `PROFANE`,
-   about 6 minutes).
+   about 7 minutes).
 4. Select RUN mode and type `RUN` [ENTER].
 
 You can also type in the listing [profane_attack-v1.6.txt](profane_attack-v1.6.txt). Leave
