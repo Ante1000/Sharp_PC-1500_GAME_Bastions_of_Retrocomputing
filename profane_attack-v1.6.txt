@@ -31,14 +31,14 @@
 222 U = 300 * N : IF N > 6 LET U = 600 * N
 223 Y = 4 * N + 5 : IF N = 0 LET U = 400
 225 PRINT STR$ (Y); " RELICS, "; STR$ (U); " GOLD"
-230 C = 0 : INPUT "HOW MANY CROSSES? "; C
+230 C = 0 : INPUT "HOW MANY INV.CROSSES? "; C
 235 IF C >= 0 AND C <= CR AND C = INT (C) GOTO 240
 237 BEEP 1 : PRINT "YOU HAVE "; STR$ (CR); " CROSSES" : GOTO 230
 240 B = 0 : INPUT "HOW MANY BRIMSTONES? "; B
 245 IF B >= 0 AND B <= BS AND B = INT (B) GOTO 250
 247 BEEP 1 : PRINT "YOU HAVE "; STR$ (BS); " BRIMSTONES" : GOTO 240
-250 IF C + B + JH = 0 BEEP 1 : PRINT "NO WEAPONS: NO CHANCE!" : GOTO 100
-255 CR = CR - C : BS = BS - B : WAIT 0 : PRINT "ENTER=FIGHT  3=RETREAT"
+250 IF C + B + JH = 0 BEEP 1 : PRINT "NO WEAPONS!" : GOTO 100
+255 CR = CR - C : BS = BS - B : WAIT 0 : PRINT "ENTER=FIGHT 3=RETREAT"
 260 GOSUB 900 : IF G$ = "3" LET CR = CR + C : BS = BS + B : GOTO 100
 265 IF G$ <> CHR$ (13) GOTO 260
 268 WAIT 40 : CLS : CURSOR 8 : PRINT "FIGHTING!" : WAIT 0
@@ -57,8 +57,8 @@
 315 MC = MC - K : L = L + K : T = INT (M / 5) : Q = .35 : GOSUB 800
 320 IF K > JH LET K = JH
 321 JH = JH - K : H = H + K : R = R + 1 : Q = .5
-322 IF R = 2 AND C > 0 PRINT "Hurling inv. crosses!"
-323 IF R = 2 AND B > 0 PRINT "Spewing brimstones!"
+322 IF R = 2 AND C > 0 PRINT " >> Hurling inv. crosses!"
+323 IF R = 2 AND B > 0 PRINT " >> Spewing brimstones!"
 325 PRINT "ROUND"; STR$ (R); ": CC "; STR$ (M); " vs YOU "; STR$ (AT + MC + JH)
 326 IF M = 0 GOTO 330
 327 IF AT + MC + JH > 0 GOTO 290
