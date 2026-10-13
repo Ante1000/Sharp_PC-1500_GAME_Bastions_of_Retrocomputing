@@ -63,7 +63,7 @@
 317 JH = JH - K : H = H + K : T = 0 : IF M > 15 * JH LET T = JH
 319 Q = .4 : GOSUB 800
 321 JH = JH - K : H = H + K : R = R + 1 : Q = .5
-322 IF V > 0 PRINT "Merc. hurl inv. crosses!"
+322 IF V > 0 PRINT "Merceries hurl crosses!"
 323 IF Z > 0 PRINT "Satanists spew brimstones!"
 325 PRINT "ROUND"; STR$ (R); ": CC "; STR$ (M); " vs YOU "; STR$ (SA + MC + JH)
 326 IF M = 0 GOTO 330
@@ -76,7 +76,7 @@
 335 I = I + 1 : WAIT 16 : IF I >= V WAIT 96
 336 PRINT MID$ (LS$(0), I, 26) : IF I < V GOTO 335
 338 PRINT "YOU GOT "; STR$ (U); " GOLD"
-340 PRINT STR$ (Y); " RELICS "; STR$ (X); " CROSSES"
+340 PRINT STR$ (Y); " RELICS "; STR$ (X); " INV.CROSSES"
 342 Y = INT (MI(N) / 6) : MC = MC + Y : K = INT (D / 2 ^ N + 1E-5) : E = N + 1
 345 Z = 0 : FOR I = 1 TO INT (U / 150) : Z = Z + RND (3) : NEXT I : SA = SA + Z
 360 IF K / 2 > INT (K / 2) GOTO 365
