@@ -7,7 +7,7 @@ A strategy game in BASIC for the Sharp PC-1500, PC-1500A and Tandy PC-2.
 The CATHODIC CHURCH (CC) - a fictional organisation with a profound interest in vintage computing - maintains ten places across Europe, called Bastions of Vintage IT, from Lourdes to the Vatican (numbered 0-9). In these bastions of retro computing the Cathodic Church keeps its vintage and NOS treasures: old hardware from IBM, HP, Apple, Commodore, Atari, Sharp, Casio, NEC and others. They are revered and heavily protected, and no outsider is let in. The security systems of every bastion are run by TECH PRIESTS, who also guard its gold and its retro stuff. Your task is to conquer the bastions by breaking through the Tech Priests' defences. You lead Ghosts, Hackers and Gurus. Conquer all ten places to win the war; if you lose all your people, the Cathodic Church wins.
 
 
-- **Hackers** run Killer Drives: HDDs loaded with code that unleashes daemons, merge conflicts, legacy code, deadlocks, and infinite loops, which drive the Tech-Priests' machines into an infernal overheat or a thermal meltdown (each hacker runs one per round; every drive is used only once).
+- **Hackers** fight with Killer Drives: HDDs loaded with code that unleashes daemons, merge conflicts, legacy code, deadlocks, and infinite loops, which drive the Tech-Priests' machines into an infernal overheat or a thermal meltdown (each hacker runs one per round; every drive is used only once).
   Hackers also stand in the front line: the Tech Priests strike them first and reach the ghosts
   only when no hackers are left.
 
