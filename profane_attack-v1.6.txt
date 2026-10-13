@@ -57,8 +57,8 @@
 315 MC = MC - K : L = L + K : T = INT (M / 5) : Q = .35 : GOSUB 800
 320 IF K > JH LET K = JH
 321 JH = JH - K : H = H + K : R = R + 1 : Q = .5
-322 IF R = 2 AND C > 0 PRINT " >> Hurling inv. crosses!"
-323 IF R = 2 AND B > 0 PRINT " >> Spewing brimstones!"
+322 IF R = 2 AND C > 0 PRINT "Merc. hurl inv. crosses!"
+323 IF R = 2 AND B > 0 PRINT "Satanists spew brimstones!"
 325 PRINT "ROUND"; STR$ (R); ": CC "; STR$ (M); " vs YOU "; STR$ (AT + MC + JH)
 326 IF M = 0 GOTO 330
 327 IF AT + MC + JH > 0 GOTO 290
