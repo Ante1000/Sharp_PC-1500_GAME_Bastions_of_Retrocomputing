@@ -33,9 +33,7 @@ The CATHODIC CHURCH (CC) - a fictional organisation with a profound interest in 
   gurus (320 gold). The game first shows how many of each you have.
 - **R – Resources** and **E – End**.
 
-Every element counts: Killer Drives need hackers to run them, API keys need ghosts, hackers
-protect the ghosts, and gurus do what drives and demonic code cannot. Leave any of them out and you
-win clearly less often.
+Every element counts: Killer Drives need Hackers to run them, Ghosts need API keys to create malicious code, Hackers protect the Ghosts, and Gurus do what drives and demonic code cannot. Leave any of them out and you win clearly less often.
 
 The first places are easy and every next one is harder. Places 7, 8 and 9 are rich places,
 with twice as many Tech Priests and more than twice as much gold, but not twice as much retro
