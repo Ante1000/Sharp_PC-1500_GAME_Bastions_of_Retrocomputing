@@ -12,7 +12,7 @@ The CATHODIC CHURCH (CC) - a fictional organisation with a profound interest in 
   only when no hackers are left.
 
 - **Ghosts** are silent, brilliant programmers who strike with surgical precision: their malicious unholy
-  code finds every hole in the Tech Priests' systems - hidden bugs, plagues of worms, the
+  code finds every hole in the Tech Priests' systems, they send hidden bugs, plagues of worms, the
   Miracle Exploit. They need API keys to attack (each ghost uses one per round; every key is
   used only once). You cannot hire them: they join you as volunteers when you conquer a place.
   
