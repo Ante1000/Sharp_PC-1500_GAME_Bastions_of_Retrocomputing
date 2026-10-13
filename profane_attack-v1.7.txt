@@ -78,9 +78,9 @@
 340 PRINT STR$ (Y); " RELICS "; STR$ (X); " INV.CROSSES"
 342 Y = INT (MI(N) / 6) : MC = MC + Y : K = INT (D / 2 ^ N + 1E-5) : E = N + 1
 345 Z = 0 : FOR I = 1 TO INT (U / 150) : Z = Z + RND (3) : NEXT I : SA = SA + Z
-360 IF K / 2 > INT (K / 2) GOTO 365
-362 PRINT "AND ALSO YOU GOT:" : D = D + 2 ^ N : GOSUB 870 : PRINT LS$(0)
-365 GOSUB 860 : PRINT "GOT "; STR$ (Y); " NEW MERC, "; STR$ (Z); " SAT"
+360 GOSUB 860 : PRINT "GOT "; STR$ (Y); " NEW MERC, "; STR$ (Z); " SAT"
+362 IF K / 2 > INT (K / 2) GOTO 370
+365 PRINT "AND ALSO YOU GOT:" : D = D + 2 ^ N : GOSUB 870 : PRINT LS$(0)
 370 MI(N) = 0 : GOTO 450
 399 REM --- YOU LOST ---
 400 LS$(0) = "        YOU LOST!" : RESTORE 960 : GOSUB 845
