@@ -21,7 +21,7 @@ The first places are easy and every next one is harder. Places 7, 8 and 9 are ri
 with twice as many militants and twice as much gold, but not twice as many relics: what one of
 them gives you is not enough for the next one. Save gold and relics from the first places; if
 you use up all your gold in every fight, you will not get through Weltenburg and the Vatican
-(place 9), the richest of all. Once you have conquered Avila (place 5) or a higher place, the
+(place 9), the richest of all. Once you have conquered Loreto (place 6) or a higher place, the
 Cathodics fight back: from time to time one of your places breaks free and has to be conquered
 again.
 
