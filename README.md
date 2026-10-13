@@ -29,8 +29,8 @@ The CATHODIC CHURCH (CC) - a fictional organisation with a profound interest in 
   conquered place gives you its gold and retro stuff, some Killer Drives and its own retro
   treasure, a sixth of its Tech Priests defect to you as hackers, and new ghosts join you.
 - **B – Buy:** Killer Drives (price 8 gold), API keys (price 20 gold), gurus (price 400 gold) and hackers (80 gold).
-- **S – Sell:** retro stuff (at a price that changes after every fight), hackers (50) and
-  gurus (320). The game first shows how many of each you have.
+- **S – Sell:** retro stuff (at a price that changes after every fight), hackers (50 gold) and
+  gurus (320 gold). The game first shows how many of each you have.
 - **R – Resources** and **E – End**.
 
 Every element counts: Killer Drives need hackers to run them, API keys need ghosts, hackers
