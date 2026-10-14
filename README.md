@@ -11,7 +11,7 @@ The CATHODIC CHURCH (CC) - a fictional organisation with a profound interest in 
 Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is eliminated when the Tech Priests defeat their solution, their code or their system, and leaves the battlefield in one piece for a long relaxation and a complete rewrite; Tech Priests fall the same way, when their systems crash, and spend the rest of the war in the Cathodic Church's retreat centre, waiting for the main spiritual help desk.
 
 
-- **Hackers** fight with Killer Drives: HDDs loaded with code that unleashes system daemons, merge conflicts, malicious codes, deadlocks, and infinite loops, which drive the Tech-Priests' machines into an infernal overheat or a thermal meltdown (each hacker runs one per round; every drive is used only once).
+- **Hackers** fight with Killer Drives: HDDs loaded with code that unleashes system daemons, merge conflicts, malicious code, deadlocks, and infinite loops, which drive the Tech-Priests' machines into an infernal overheat or a thermal meltdown (each hacker runs one per round; every drive is used only once).
   Hackers also stand in the front line: the Tech Priests strike them first and reach the ghosts
   only when no hackers are left.
 
