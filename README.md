@@ -11,43 +11,44 @@ A strategy game in BASIC for the Sharp PC-1500, PC-1500A and Tandy PC-2.
 Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is eliminated when the Tech Priests defeat their solution, their code or their system, and leaves the battlefield in one piece for a long relaxation and a complete rewrite; Tech Priests fall the same way, when their systems crash, and spend the rest of the war in the Cathodic Church's retreat centre, waiting for the main spiritual help desk.
 
 
-- **Hackers** fight with Killer Drives: HDDs loaded with code that unleashes system daemons, merge conflicts, malicious code, deadlocks, and infinite loops, which drive the Tech-Priests' machines into an infernal overheat or a thermal meltdown (each hacker runs one per round; every drive is used only once).
+- **Hackers** fight with Killer Disks (K-DISKS): disks on which they prepare system daemons, endless loops, merge conflicts, malicious code and deadlocks, which drive the Tech-Priests' machines into an infernal overheat or a thermal meltdown (each hacker runs one per round; every disk is used only once).
   Hackers also stand in the front line: the Tech Priests strike them first and reach the ghosts
   only when no hackers are left.
 
 - **Ghosts** silent, brilliant programmers who strike with surgical precision: their sinister, unholy code finds every flaw in the Tech Priests’ systems. They unleash hidden bugs, plagues of self-replicating worms, corrupted servitor firmware, poisoned data-rites, and the dreaded Miracle Exploit — a zero-day opening through which no firewall, no ward, and no machine-spirit can hold. They need API keys to attack (each ghost uses one per round; every key is
   used only once). You cannot hire them: they join you as volunteers when you conquer a place.
   
-- **Gurus** fight alone, without Killer Drives or API keys. They strike with a huge,
+- **Gurus** fight alone, without Killer Disks or API keys. They strike with a huge,
   meticulously prepared Dependency Hell that paralyses the Tech Priests' systems and inflicts sheer terror among them - and power of Gurus is monstrous. They stay with you for the next fights, but Tech Priests hunt them, above all when they are far outnumbered.
 
  **KEYS**
-- **F – Fight:** choose a place, decide how many Killer Drives (HDDs) and API keys to take, then fight
-  or retreat. Every place has a **weak spot** (`WEAK TO DRIVES`, `KEYS` or `GURUS`): there the hits
-  of that weapon count one and a half times. Every Killer Drive and API key is used only once: in each round each hacker runs
-  one drive and each ghost uses one key, until they are all used; those not used come back to
+- **F – Fight:** choose a place, decide how many Killer Disks and API keys to take, then fight
+  or retreat. Every place has a **weak spot** (`WEAK TO K-DISKS`, `KEYS` or `GURUS`): there the hits
+  of that weapon count one and a half times. Every Killer Disk and API key is used only once: in each round each hacker runs
+  one disk and each ghost uses one key, until they are all used; those not used come back to
   you after a won fight. The fight goes on round by round until one side has nobody left; at
   most a third of the Tech Priests fall in one round, so it lasts at least three rounds. From
   the second round on, while you have fewer people than the Tech Priests, (S) appears on the
-  round screen: press **S to surrender**. You keep your people and the unused drives and keys, and
+  round screen: press **S to surrender**. You keep your people and the unused disks and keys, and
   the place keeps only the Tech Priests it has left, so your next attack is easier. A
-  conquered place gives you its gold and retro stuff, some Killer Drives and its own retro
+  conquered place gives you its gold and retro stuff, some Killer Disks and its own retro
   treasure, a sixth of its Tech Priests defect to you as hackers, and new ghosts join you. Then
   you may leave hackers there as a **garrison** (`GARRISON (MAX n) ?`): they leave your army for
   good, but they can hold the place when it rises.
-- **B – Buy:** Killer Drives (price 8 gold), API keys (price 20 gold), gurus (price 400 gold) and hackers (80 gold).
-- **S – Sell:** retro stuff (at a price that changes after every fight), hackers (50 gold) and
-  gurus (320 gold). The game first shows how many of each you have.
+- **B – Buy:** Killer Disks (price 8 gold), API keys (price 20 gold), gurus (price 400 gold) and hackers (80 gold).
+- **S – Sell:** retro stuff, hackers (50 gold) and gurus (320 gold). Retro stuff sells for 750
+  gold at the start; after every fight its price rises by 0-200 gold, and every sale lowers it
+  by 0-200 gold, but never below 250. The game first shows how many of each you have.
 - **R – Resources** and **E – End**.
 
-Every element counts: Killer Drives need Hackers to run them, Ghosts need API keys to create malicious code, Hackers protect the Ghosts, and Gurus do what drives and demonic code cannot. Leave any of them out and you win clearly less often.
+Every element counts: Killer Disks need Hackers to run them, Ghosts need API keys to create malicious code, Hackers protect the Ghosts, and Gurus do what disks and demonic code cannot. Leave any of them out and you win clearly less often.
 
 The first places are easy and every next one is harder. Places 7, 8 and 9 are rich places,
 with twice as many Tech Priests and more than twice as much gold, but not twice as much retro
 stuff: what one of them gives you is not enough for the next one. Save gold and retro stuff
 from the first places; if you use up all your gold in every fight, you will not get through
-Hohensalzburg and the Vatican (place 9), the richest of all. Once you have conquered Loreto
-(place 6) or a higher place, the Tech Priests fight back: from time to time one of your places
+Hohensalzburg and the Vatican (place 9), the richest of all. Once you have conquered Avila
+(place 5) or a higher place, the Tech Priests fight back: from time to time one of your places
 rises. Its garrison may hold it (each garrison hacker holds off 20 of the Tech Priests the place
 had at the start); otherwise it breaks free with twice as many Tech Priests, and winning it back
 gives only half its gold.
