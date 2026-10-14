@@ -45,7 +45,7 @@ The first places are easy and every next one is harder. Places 7, 8 and 9 are ri
 with twice as many Tech Priests and more than twice as much gold, but not twice as much retro
 stuff: what one of them gives you is not enough for the next one. Save gold and retro stuff
 from the first places; if you use up all your gold in every fight, you will not get through
-Weltenburg and the Vatican (place 9), the richest of all. Once you have conquered Loreto
+Hohensalzburg and the Vatican (place 9), the richest of all. Once you have conquered Loreto
 (place 6) or a higher place, the Tech Priests fight back: from time to time one of your places
 breaks free and has to be conquered again.
 
