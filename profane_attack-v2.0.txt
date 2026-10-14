@@ -199,7 +199,7 @@
 978 REM --- THE RETRO TREASURES OF THE PLACES 0-9 ---
 980 DATA "Casio FX-602P", "HP-41C calculator", "5.25 floppy disks"
 982 DATA "Commodore color CRT", "5MB Seagate HDD", "Apple II with FDD"
-984 DATA "Logitech P4 mouse", "Apple LISA", "Cray-1 system"
+984 DATA "Apple LISA", "Logitech P4 mouse", "Cray-1 system"
 986 DATA "Vatican Mainframe"
 988 REM --- BACH, TOCCATA IN D MINOR: PHRASE 1 (990-991), PHRASE 2 (992-994) ---
 990 DATA 61, 106, 69, 95, 61, 794, 69, 102, 79, 90, 84, 85, 95, 76, 101, 249
