@@ -25,7 +25,10 @@ The CATHODIC CHURCH (CC) - a fictional organisation with a profound interest in 
   or retreat. Every Killer Drive and API key is used only once: in each round each hacker runs
   one drive and each ghost uses one key, until they are all used; those not used come back to
   you after a won fight. The fight goes on round by round until one side has nobody left; at
-  most a third of the Tech Priests fall in one round, so it lasts at least three rounds. A
+  most a third of the Tech Priests fall in one round, so it lasts at least three rounds. From
+  the second round on, while you have fewer people than the Tech Priests, an S appears on the
+  round screen: press S to surrender. You keep your people and the unused drives and keys, and
+  the place keeps only the Tech Priests it has left, so your next attack is easier. A
   conquered place gives you its gold and retro stuff, some Killer Drives and its own retro
   treasure, a sixth of its Tech Priests defect to you as hackers, and new ghosts join you.
 - **B – Buy:** Killer Drives (price 8 gold), API keys (price 20 gold), gurus (price 400 gold) and hackers (80 gold).
