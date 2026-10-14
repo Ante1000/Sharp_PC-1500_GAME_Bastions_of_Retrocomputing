@@ -19,9 +19,7 @@ Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is
   used only once). You cannot hire them: they join you as volunteers when you conquer a place.
   
 - **Gurus** fight alone, without Killer Drives or API keys. They strike with a huge,
-  meticulously prepared Dependency Hell that paralyses the Tech Priests' systems - and their power
-  is monstrous. They stay with you for the next fights, but Tech Priests hunt them, above all
-  when they are far outnumbered.
+  meticulously prepared Dependency Hell that paralyses the Tech Priests' systems and inflicts sheer terror among them - and power of Gurus is monstrous. They stay with you for the next fights, but Tech Priests hunt them, above all when they are far outnumbered.
 
  **KEYS**
 - **F – Fight:** choose a place, decide how many Killer Drives (HDDs) and API keys to take, then fight
