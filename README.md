@@ -74,5 +74,4 @@ some messages contain small letters (SML key).
 Previous versions take place in a different setting: religious wars.
 - Version 1.7 (the religious war: Satanists with brimstones, mercenaries with inverted crosses,
   jihadists, militants and relics) is kept in [archive/v1.7](archive/v1.7).
-- Version 1.6 (with anticlericals instead of Satanists, and without the throwing rules) is kept
-  in [archive/v1.6](archive/v1.6).
+- Version 1.6 (first functional version) is kept in [archive/v1.6](archive/v1.6).
