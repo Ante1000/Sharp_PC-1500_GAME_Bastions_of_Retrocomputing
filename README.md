@@ -1,12 +1,14 @@
 # PROFANE ATTACK
 
+![Hooded Tech Priests among retro computers in a gothic church; a Sharp PC-1500A shows: Gurus created Dependency HELL!!!](images/profane_attack.jpg)
+
 A strategy game in BASIC for the Sharp PC-1500, PC-1500A and Tandy PC-2.
 
 ## The game
 
 The CATHODIC CHURCH (CC) - a fictional organisation with a profound interest in vintage computing - maintains ten places across Europe, called Bastions of Vintage IT, from Lourdes to the Vatican (numbered 0-9). In these bastions of retro computing the Cathodic Church keeps its vintage and NOS treasures: old hardware from IBM, HP, Apple, Commodore, Atari, Sharp, Casio, NEC and others. They are revered and heavily protected, and no outsider is let in. The security systems of every bastion are run by TECH PRIESTS, who also guard its gold and its retro stuff. Your task is to conquer the bastions by breaking through the Tech Priests' defences. You lead a team of highly skilled programmers: Ghosts, Hackers and Gurus. Conquer all ten places to win the war; if you lose all your people, the Cathodic Church wins.
 
-Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is eliminated when the Tech Priests defeat their solution, their code or their system, and leaves the battlefield in one piece for a long coffee and a complete rewrite; Tech Priests fall the same way, when their systems crash.
+Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is eliminated when the Tech Priests defeat their solution, their code or their system, and leaves the battlefield in one piece for a long relaxation and a complete rewrite; Tech Priests fall the same way, when their systems crash, and spend the rest of the war in the Cathodic Church's retreat centre, waiting for the main spiritual help desk.
 
 
 - **Hackers** fight with Killer Drives: HDDs loaded with code that unleashes system daemons, merge conflicts, malicious codes, deadlocks, and infinite loops, which drive the Tech-Priests' machines into an infernal overheat or a thermal meltdown (each hacker runs one per round; every drive is used only once).
