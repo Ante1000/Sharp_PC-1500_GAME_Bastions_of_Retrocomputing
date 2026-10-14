@@ -31,9 +31,9 @@
 222 U = 300 * N : IF N > 6 LET U = 700 * N
 223 Y = 4 * N + 5 : IF N = 0 LET U = 400
 225 PRINT STR$ (Y); " RETRO STUFF, "; STR$ (U); " GOLD"
-230 C = 0 : INPUT "KILLER HDD? "; C
+230 C = 0 : INPUT "KILLER DRIVES? "; C
 235 IF C >= 0 AND C <= CR AND C = INT (C) GOTO 240
-237 BEEP 1 : PRINT "YOU HAVE "; STR$ (CR); " KILLER HDD" : GOTO 230
+237 BEEP 1 : PRINT "YOU HAVE "; STR$ (CR); " KILLER DRIVES" : GOTO 230
 240 B = 0 : INPUT "API KEYS? "; B
 245 IF B >= 0 AND B <= BS AND B = INT (B) GOTO 250
 247 BEEP 1 : PRINT "YOU HAVE "; STR$ (BS); " API KEYS" : GOTO 240
@@ -77,7 +77,7 @@
 332 PRINT "YOU WON! ("; PL$(N); ")" : RESTORE 950 : GOSUB 850
 334 WAIT 96 : CURSOR 25 : PRINT " "
 338 BS = BS + B : PRINT "YOU GOT "; STR$ (U); " GOLD"
-340 PRINT STR$ (Y); " RETRO "; STR$ (X); " KILLER HDD"
+340 PRINT STR$ (Y); " RETRO "; STR$ (X); " KILLER DRIVES"
 342 Y = INT (MI(N) / 6) : MC = MC + Y : K = INT (D / 2 ^ N + 1E-5) : E = N + 1
 345 Z = 0 : FOR I = 1 TO INT (U / 150) : Z = Z + RND (3) : NEXT I : SA = SA + Z
 360 GOSUB 860 : PRINT "+"; STR$ (Y); " HACKERS, +"; STR$ (Z); " GHOSTS"
@@ -141,7 +141,7 @@
 740 REM --- RESOURCES: THREE SCREENS, ANY KEY GOES ON ---
 750 WAIT 64 : PRINT "YOU HAVE:" : WAIT 0
 755 PRINT "GHOST "; STR$ (SA); " HACK "; STR$ (MC); " GURU "; STR$ (JH)
-760 GOSUB 900 : PRINT "KILLER HDD "; STR$ (CR); " API "; STR$ (BS)
+760 GOSUB 900 : PRINT "KILLER DRIVES "; STR$ (CR); " API "; STR$ (BS)
 765 GOSUB 900 : PRINT "GOLD "; STR$ (GD); " RETRO "; STR$ (RE) : GOSUB 900
 767 GOTO 100
 790 WAIT 0 : PRINT "QUIT (Y/N)?" : GOSUB 900 : IF G$ <> "Y" GOTO 100
@@ -191,7 +191,7 @@
 975 DATA "Avila", "Loreto", "Hohensalzburg", "Weltenburg", "Vatican"
 978 REM --- THE RETRO TREASURES OF THE PLACES 0-9 ---
 980 DATA "Casio FX-602P", "HP-41C calculator", "5.25 floppy disks"
-982 DATA "Commodore CRT", "5MB Seagate HDD", "Apple II with FDD"
+982 DATA "Commodore color CRT", "5MB Seagate HDD", "Apple II with FDD"
 984 DATA "Atari Falcon", "Apple LISA", "Cray-1 system"
 986 DATA "Vatican Mainframe"
 988 REM --- BACH, TOCCATA IN D MINOR: PHRASE 1 (990-991), PHRASE 2 (992-994) ---
