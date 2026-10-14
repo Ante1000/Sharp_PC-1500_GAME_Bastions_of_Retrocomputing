@@ -15,7 +15,7 @@ The CATHODIC CHURCH (CC) - a fictional organisation with a profound interest in 
   used only once). You cannot hire them: they join you as volunteers when you conquer a place.
   
 - **Gurus** fight on their own, without Killer Drives or API keys. They strike with a huge,
-  carefully prepared Dependency Hell that paralyses the Tech Priests' systems, and their power
+  carefully prepared Dependency Hell that paralyses the Tech Priests' systems - and their power
   is monstrous. They stay with you for the next fights, but Tech Priests hunt them, above all
   when they are far outnumbered.
 
