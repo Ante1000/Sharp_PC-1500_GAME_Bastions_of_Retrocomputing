@@ -23,7 +23,8 @@ Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is
 
  **KEYS**
 - **F – Fight:** choose a place, decide how many Killer Drives (HDDs) and API keys to take, then fight
-  or retreat. Every Killer Drive and API key is used only once: in each round each hacker runs
+  or retreat. Every place has a **weak spot** (`WEAK TO DRIVES`, `KEYS` or `GURUS`): there the hits
+  of that weapon count one and a half times. Every Killer Drive and API key is used only once: in each round each hacker runs
   one drive and each ghost uses one key, until they are all used; those not used come back to
   you after a won fight. The fight goes on round by round until one side has nobody left; at
   most a third of the Tech Priests fall in one round, so it lasts at least three rounds. From
@@ -31,7 +32,9 @@ Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is
   round screen: press **S to surrender**. You keep your people and the unused drives and keys, and
   the place keeps only the Tech Priests it has left, so your next attack is easier. A
   conquered place gives you its gold and retro stuff, some Killer Drives and its own retro
-  treasure, a sixth of its Tech Priests defect to you as hackers, and new ghosts join you.
+  treasure, a sixth of its Tech Priests defect to you as hackers, and new ghosts join you. Then
+  you may leave hackers there as a **garrison** (`GARRISON (MAX n) ?`): they leave your army for
+  good, but they can hold the place when it rises.
 - **B – Buy:** Killer Drives (price 8 gold), API keys (price 20 gold), gurus (price 400 gold) and hackers (80 gold).
 - **S – Sell:** retro stuff (at a price that changes after every fight), hackers (50 gold) and
   gurus (320 gold). The game first shows how many of each you have.
@@ -45,31 +48,36 @@ stuff: what one of them gives you is not enough for the next one. Save gold and 
 from the first places; if you use up all your gold in every fight, you will not get through
 Hohensalzburg and the Vatican (place 9), the richest of all. Once you have conquered Loreto
 (place 6) or a higher place, the Tech Priests fight back: from time to time one of your places
-breaks free and has to be conquered again.
+rises. Its garrison may hold it (each garrison hacker holds off 20 of the Tech Priests the place
+had at the start); otherwise it breaks free with twice as many Tech Priests, and winning it back
+gives only half its gold.
 
-Full rules: [instructions_v2.0.pdf](instructions_v2.0.pdf) ([instructions_v2.0.docx](instructions_v2.0.docx)).
+Full rules: [instructions_v2.1.pdf](instructions_v2.1.pdf) ([instructions_v2.1.docx](instructions_v2.1.docx)).
 
 ## Installation
 
 You need a PC-1500A, or a PC-1500 or PC-2 with a RAM module (CE-151 or larger): the game
-needs about 5.6 KB of memory. To load the recording you need the CE-150 (for the PC-2: the
+needs about 5.9 KB of memory. To load the recording you need the CE-150 (for the PC-2: the
 Radio Shack printer/cassette interface).
 
 1. Switch off the computer, insert it into the CE-150 and connect the audio output of a
    computer or player to the EAR jack of the CE-150.
 2. Switch on, select PRO mode and type `NEW0` [ENTER], then `CLOAD` [ENTER].
-3. Play [profane_attack-v2.0.wav](profane_attack-v2.0.wav) (name on the tape: `PROFANE`,
+3. Play [profane_attack-v2.1.wav](profane_attack-v2.1.wav) (name on the tape: `PROFANE`,
    about 7 minutes).
 4. Select RUN mode and type `RUN` [ENTER].
 
-You can also type in the listing [profane_attack-v2.0.txt](profane_attack-v2.0.txt). Leave
+You can also type in the listing [profane_attack-v2.1.txt](profane_attack-v2.1.txt). Leave
 out the REM lines: the recording does not contain them either, and with them the program
 would not leave enough memory for its variables on a PC-1500A. The place names, treasures and
 some messages contain small letters (SML key).
 
 ## Older versions
 
-Previous versions take place in a different setting: religious wars.
+- Version 2.0 (the same IT world, without weak spots and garrisons, with stronger gurus) is kept
+  in [archive/v2.0](archive/v2.0).
+
+Earlier versions take place in a different setting: religious wars.
 - Version 1.7 (the religious war: Satanists with brimstones, mercenaries with inverted crosses,
   jihadists, militants and relics) is kept in [archive/v1.7](archive/v1.7).
 - Version 1.6 (first functional version) is kept in [archive/v1.6](archive/v1.6).
