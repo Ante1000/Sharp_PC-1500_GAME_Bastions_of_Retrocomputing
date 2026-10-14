@@ -23,13 +23,14 @@ Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is
   is monstrous. They stay with you for the next fights, but Tech Priests hunt them, above all
   when they are far outnumbered.
 
+ **KEYS**
 - **F – Fight:** choose a place, decide how many Killer Drives (HDDs) and API keys to take, then fight
   or retreat. Every Killer Drive and API key is used only once: in each round each hacker runs
   one drive and each ghost uses one key, until they are all used; those not used come back to
   you after a won fight. The fight goes on round by round until one side has nobody left; at
   most a third of the Tech Priests fall in one round, so it lasts at least three rounds. From
   the second round on, while you have fewer people than the Tech Priests, an S appears on the
-  round screen: press S to surrender. You keep your people and the unused drives and keys, and
+  round screen: press **S to surrender**. You keep your people and the unused drives and keys, and
   the place keeps only the Tech Priests it has left, so your next attack is easier. A
   conquered place gives you its gold and retro stuff, some Killer Drives and its own retro
   treasure, a sixth of its Tech Priests defect to you as hackers, and new ghosts join you.
