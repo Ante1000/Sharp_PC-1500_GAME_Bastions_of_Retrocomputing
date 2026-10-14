@@ -11,9 +11,7 @@ The CATHODIC CHURCH (CC) - a fictional organisation with a profound interest in 
   Hackers also stand in the front line: the Tech Priests strike them first and reach the ghosts
   only when no hackers are left.
 
-- **Ghosts** are silent, brilliant programmers who strike with surgical precision: their sinister, unholy
-  code finds every hole in the Tech Priests' systems, they send hidden bugs, plagues of worms, the
-  Miracle Exploit or Miracle Opening. They need API keys to attack (each ghost uses one per round; every key is
+- **Ghosts** silent, brilliant programmers who strike with surgical precision: their sinister, unholy code finds every flaw in the Tech Priests’ systems. They unleash hidden bugs, plagues of self-replicating worms, corrupted servitor firmware, poisoned data-rites, and the dreaded Miracle Exploit — a zero-day opening through which no firewall, no ward, and no machine-spirit can hold. They need API keys to attack (each ghost uses one per round; every key is
   used only once). You cannot hire them: they join you as volunteers when you conquer a place.
   
 - **Gurus** fight on their own, without Killer Drives or API keys. They strike with a huge,
