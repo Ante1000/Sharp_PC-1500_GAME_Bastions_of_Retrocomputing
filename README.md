@@ -1,6 +1,6 @@
 # PROFANE ATTACK
 
-![Hooded Tech Priests among retro computers in a gothic church; a Sharp PC-1500A shows: Gurus created Dependency HELL!!!](images/profane_attack.jpg)
+![Hooded Tech Priests in despair among retro computers in a gothic church; a Sharp PC-1500 shows: UNLEASH SYSTEM DAEMONS?](images/system_daemons.jpg)
 
 A strategy game in BASIC for the Sharp PC-1500, PC-1500A and Tandy PC-2.
 
