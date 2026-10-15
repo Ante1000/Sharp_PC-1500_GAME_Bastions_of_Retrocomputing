@@ -36,9 +36,9 @@ Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is
   you may leave hackers there as a **garrison** (`GARRISON (MAX n) ?`): they leave your army for
   good, but they can hold the place when it rises.
 - **B – Buy:** Killer Disks (price 8 gold), API keys (price 20 gold), gurus (price 400 gold) and hackers (80 gold).
-- **S – Sell:** retro stuff, hackers (50 gold) and gurus (320 gold). Retro stuff sells for 750
-  gold at the start; after every fight its price rises by 0-200 gold, and every sale lowers it
-  by 0-200 gold, but never below 250. The game first shows how many of each you have.
+- **S – Sell:** retro stuff, hackers (50 gold) and gurus (320 gold). Retro stuff sells for 600
+  gold at the start; after every fight its price rises by 0-100 gold, and every sale lowers it
+  by 0-250 gold, but never below 250, so on average it stays level. The game first shows how many of each you have.
 - **R – Resources** and **E – End**.
 
 Every element counts: Killer Disks need Hackers to run them, Ghosts need API keys to create malicious code, Hackers protect the Ghosts, and Gurus do what disks and demonic code cannot. Leave any of them out and you win clearly less often.
