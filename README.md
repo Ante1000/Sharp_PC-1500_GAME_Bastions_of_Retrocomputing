@@ -1,4 +1,4 @@
-# PROFANE ATTACK
+# BASTIONS OF RETROCOMPUTING
 
 ![Hooded Tech Priests in despair among retro computers in a gothic church; a Sharp PC-1500 shows: UNLEASH SYSTEM DAEMONS?](images/system_daemons.jpg)
 
@@ -11,12 +11,12 @@ A strategy game in BASIC for the Sharp PC-1500, PC-1500A and Tandy PC-2.
 Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is eliminated when the Tech Priests defeat their solution, their code or their system, and leaves the battlefield in one piece for a long relaxation and a complete rewrite; Tech Priests fall the same way, when their systems crash, and spend the rest of the war in the Cathodic Church's retreat centre, waiting for the main spiritual help desk.
 
 
-- **Hackers** fight with Killer Disks (K-DISKS): disks on which they prepare system daemons, endless loops, merge conflicts, malicious code and deadlocks, which drive the Tech-Priests' machines into an infernal overheat or a thermal meltdown (each hacker runs one per round; every disk is used only once).
+- **Hackers** fight with Killer Disks (K-DISKS): disks on which they prepare system daemons, endless loops, merge conflicts, malicious code and deadlocks, which drive the Tech-Priests' machines into an infernal overheat or a thermal meltdown (each hacker runs one per round; every disk is used only once). Killer Disks get through the firewalls: they hit as often in the first round as later. A hacker without a disk still attacks with plain code and viruses, but ten times weaker.
   Hackers also stand in the front line: the Tech Priests strike them first and reach the ghosts
   only when no hackers are left.
 
 - **Ghosts** silent, brilliant programmers who strike with surgical precision: their sinister, unholy code finds every flaw in the Tech Priests’ systems. They unleash hidden bugs, plagues of self-replicating worms, corrupted servitor firmware, poisoned data-rites, and the dreaded Miracle Exploit — a zero-day opening through which no firewall, no ward, and no machine-spirit can hold. They need API keys to attack (each ghost uses one per round; every key is
-  used only once). You cannot hire them: they join you as volunteers when you conquer a place.
+  used only once); a ghost without a key still attacks, but six times weaker. You cannot hire them: they join you as volunteers when you conquer a place.
   
 - **Gurus** fight alone, without Killer Disks or API keys. They strike with a huge,
   meticulously prepared Dependency Hell that paralyses the Tech Priests' systems and inflicts sheer terror among them - and power of Gurus is monstrous. They stay with you for the next fights, but Tech Priests hunt them, above all when they are far outnumbered.
@@ -28,7 +28,8 @@ Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is
   one disk and each ghost uses one key, until they are all used; those not used come back to
   you after a won fight. The Tech Priests strike your hackers first, then your ghosts: when the
   last of them fall, `NO HACKERS LEFT!` or `NO GHOSTS LEFT!` appears, and the disks or keys still
-  in the fight lie idle. The fight goes on round by round until one side has nobody left; at
+  in the fight lie idle. Hackers and ghosts who have used up their disks or keys do not just stand
+  there as shields: they fight on, ten and six times weaker. The fight goes on round by round until one side has nobody left; at
   most a third of the Tech Priests fall in one round, so it lasts at least three rounds. From
   the second round on, while you have fewer people than the Tech Priests, `S` appears on the
   round screen (`ROUND3:CC 120 vs YOU 45  S`): press **S to surrender**. You keep your people
@@ -38,10 +39,10 @@ Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is
   you may leave hackers there as a **garrison** (`GARRISON (MAX n) ?`): they leave your army for
   good, but they can hold the place when it rises.
 - **B – Buy:** Killer Disks (price 8 gold), API keys (price 20 gold), gurus (price 400 gold) and hackers (80 gold).
-- **S – Sell:** retro stuff, hackers (50 gold) and gurus (320 gold). Retro stuff sells for 650
+- **S – Sell:** retro stuff, hackers (50 gold) and gurus (320 gold). Retro stuff sells for 475
   gold at the start; after every fight its price rises by 0-100 gold, and every sale lowers it
   by 0-250 gold, but never below 250, so on average it stays level. The game first shows how many of each you have.
-- **R – Resources** and **E – End** (E, then Y; any other key keeps the game going).
+- **R – Resources** and **E – End** (E shows `Y=END`: Y ends the game, any other key brings the menu back).
 
 Every element counts: Killer Disks need Hackers to run them, Ghosts need API keys to create malicious code, Hackers protect the Ghosts, Gurus do what disks and demonic code cannot, and garrisons keep the places you have won. Leave any of them out and you win clearly less often.
 
@@ -55,7 +56,7 @@ rises. Its garrison may hold it (each garrison hacker holds off 40 of the Tech P
 had at the start); otherwise it breaks free with three times as many Tech Priests, and winning it
 back gives only a fifth of its gold and retro stuff.
 
-Full rules: [instructions_v2.1.pdf](instructions_v2.1.pdf) ([instructions_v2.1.docx](instructions_v2.1.docx)).
+Full rules: [instructions_v2.2.pdf](instructions_v2.2.pdf) ([instructions_v2.2.docx](instructions_v2.2.docx)).
 
 ## Installation
 
@@ -66,17 +67,19 @@ Radio Shack printer/cassette interface).
 1. Switch off the computer, insert it into the CE-150 and connect the audio output of a
    computer or player to the EAR jack of the CE-150.
 2. Switch on, select PRO mode and type `NEW0` [ENTER], then `CLOAD` [ENTER].
-3. Play [profane_attack-v2.1.wav](profane_attack-v2.1.wav) (name on the tape: `PROFANE`,
+3. Play [bastions-v2.2.wav](bastions-v2.2.wav) (name on the tape: `BASTIONS`,
    about 7 minutes).
 4. Select RUN mode and type `RUN` [ENTER].
 
-You can also type in the listing [profane_attack-v2.1.txt](profane_attack-v2.1.txt). Leave
+You can also type in the listing [bastions_of_retrocomputing-v2.2.txt](bastions_of_retrocomputing-v2.2.txt). Leave
 out the REM lines: the recording does not contain them either, and with them the program
 would not leave enough memory for its variables on a PC-1500A. The place names, treasures and
 some messages contain small letters (SML key).
 
 ## Older versions
 
+- Version 2.1 (still called PROFANE ATTACK: Hackers and Ghosts without disks or keys cannot attack,
+  K-Disks are stopped by the firewalls in the first round) is kept in [archive/v2.1](archive/v2.1).
 - Version 2.0 (the same IT world, without weak spots and garrisons, with stronger gurus) is kept
   in [archive/v2.0](archive/v2.0).
 
