@@ -39,7 +39,7 @@ Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is
 - **B – Buy:** Killer Disks (price 10 gold), API keys (price 26 gold), gurus (price 520 gold) and hackers (104 gold).
 - **S – Sell:** retro stuff, hackers (65 gold) and gurus (416 gold). Retro stuff sells for 475
   gold at the start; after every fight its price rises by 0-100 gold, and every sale lowers it
-  by 0-250 gold, but never below 250, so on average it stays level. The game first shows how many of each you have.
+  by 0-250 gold, but never below 250: it slowly rises for a player who sells now and then. The game first shows how many of each you have.
 - **R – Resources** and **E – End** (E shows `Y=END`: Y ends the game, any other key brings the menu back).
 
 Every element counts: Killer Disks need Hackers to run them, Ghosts need API keys to create malicious code, Hackers protect the Ghosts, and Gurus do what disks and demonic code cannot. Leave any of them out and you win clearly less often.
@@ -58,7 +58,7 @@ Full rules: [instructions_v2.3.pdf](instructions_v2.3.pdf) ([instructions_v2.3.d
 ## Installation
 
 You need a PC-1500A, or a PC-1500 or PC-2 with a RAM module (CE-151 or larger): the game
-needs about 5.9 KB of memory. To load the recording you need the CE-150 (for the PC-2: the
+needs about 5.6 KB of memory. To load the recording you need the CE-150 (for the PC-2: the
 Radio Shack printer/cassette interface).
 
 1. Switch off the computer, insert it into the CE-150 and connect the audio output of a
