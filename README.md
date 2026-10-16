@@ -10,25 +10,24 @@ A strategy game in BASIC for the Sharp PC-1500, PC-1500A and Tandy PC-2.
 
 Nobody gets hurt in this war: it is fought with code. A hacker or guru is eliminated when the Tech Priests defeat their solution, their code or their system, and leaves the battlefield in one piece for a long relaxation and a complete rewrite; Tech Priests fall the same way, when their systems crash, and spend the rest of the war in the Cathodic Church's retreat centre, waiting for the main spiritual help desk.
 
-- **Hackers** attack with their own code and methods: unholy code that finds every flaw in the Tech Priests' systems, malicious scripts, self-replicating worms, infinite loops. They also throw the Daemons and Trojans you take into the fight, and they stand in the front line: the Tech Priests strike them first. An eighth of the Tech Priests of a conquered place defect to you as new Hackers; you can also hire them.
+- **Hackers** attack with their own code and methods: unholy code that finds every flaw in the Tech Priests' systems, malicious scripts, self-replicating worms, infinite loops. They also throw the Daemons and Trojans you take into the fight, and they stand in the front line: the Tech Priests strike them first. A sixteenth of the Tech Priests of a conquered place defect to you as new Hackers; you can also hire them.
 - **Gurus** fight in every fight, all of them, at the end of every round. They strike with a huge, meticulously prepared Dependency Hell of links and corruption that paralyses the Tech Priests' systems - and the power of Gurus is monstrous. They stay with you for the next fights, but Tech Priests hunt them, above all when they are far outnumbered. Sometimes some Gurus join you after a won fight.
 - **Daemons** (cheap: a hit eliminates one Tech Priest) and **Trojans** (a hit eliminates three) are weapons: your Hackers throw a sixth of what you took in every round, as long as at least one of them still fights.
 
  **KEYS**
 - **F – Fight:** choose a place; the game shows how many Tech Priests defend it and what it is **fearful of**
-  (`FEARFUL OF DAEMONS`, `TROJANS`, `HACKERS` or `GURUS`): there the hits of that kind count three times.
+  (`FEARFUL OF DAEMONS`, `TROJANS`, `HACKERS` or `GURUS`): there the hits of that kind count three times, while all the other hits are weaker (divided by 6 at Daemons-fear, 2 at Trojans-fear, 3 at Hackers-fear, 6 at Gurus-fear, where the Tech Priests also strike Hackers twice as hard).
   Then decide how many Hackers, Daemons and Trojans to take (your Gurus always fight), and fight or
   retreat. A fight lasts about five rounds: `HACKERS launch worms!`, `Attack of Trojans!`,
   `Unleashing Daemons!`, `GURUS set Dependency Hell`; when the last fighting Hackers fall, the
-  weapons are not thrown any more (`NO HACKERS LEFT!`). At a place fearful of Gurus your Hackers and
-  weapons are much weaker: bring Gurus. From the second round on, while you have fewer fighters than the
+  weapons are not thrown any more (`NO HACKERS LEFT!`). At a place fearful of Gurus bring Gurus. From the second round on, while you have fewer fighters than the
   Tech Priests, `S` appears on the round screen (`ROUND3:CC 120 vs YOU 45  S`): press **S to surrender**:
   you keep your fighters and the weapons not thrown, and the place keeps only the Tech Priests it has left.
   A conquered place gives you its tokens, retro stuff, Daemons and Trojans (never the kind it fears),
   its own retro treasure, new Hackers and, with a chance of one half, some Gurus.
 - **B – Buy:** Hackers (104 tokens), Gurus (520), Daemons (10) and Trojans (30).
-- **S – Sell:** retro stuff, Daemons (5 tokens) and Trojans (15). Retro stuff sells for 60 tokens at the
-  start; after every fight its price rises by 0-20, and every sale lowers it by 0-40, but never below 30:
+- **S – Sell:** retro stuff, Daemons (5 tokens) and Trojans (15). Retro stuff sells for 110 tokens at the
+  start; after every fight its price rises by 0-20, and every sale lowers it by 0-40, but never below 60:
   it slowly rises for a player who sells now and then.
 - **R – Resources** and **E – End** (E shows `Y=END`: Y ends the game, any other key brings the menu back).
 
@@ -42,7 +41,7 @@ fight back: from time to time one of your places breaks free and gets back the T
 the start. Winning it back gives half its tokens and half its retro stuff (no treasure): a chance to
 collect a little more for the Vatican (place 9), the richest of all.
 
-Full rules: [instructions_v2.4.pdf](instructions_v2.4.pdf) ([instructions_v2.4.docx](instructions_v2.4.docx)).
+Full rules: [instructions_v2.5.pdf](instructions_v2.5.pdf) ([instructions_v2.5.docx](instructions_v2.5.docx)).
 
 ## Installation
 
@@ -53,17 +52,19 @@ Radio Shack printer/cassette interface).
 1. Switch off the computer, insert it into the CE-150 and connect the audio output of a
    computer or player to the EAR jack of the CE-150.
 2. Switch on, select PRO mode and type `NEW0` [ENTER], then `CLOAD` [ENTER].
-3. Play [bastions-v2.4.wav](bastions-v2.4.wav) (name on the tape: `BASTIONS`,
+3. Play [bastions-v2.5.wav](bastions-v2.5.wav) (name on the tape: `BASTIONS`,
    about 7 minutes).
 4. Select RUN mode and type `RUN` [ENTER].
 
-You can also type in the listing [bastions_of_retrocomputing-v2.4.txt](bastions_of_retrocomputing-v2.4.txt). Leave
+You can also type in the listing [bastions_of_retrocomputing-v2.5.txt](bastions_of_retrocomputing-v2.5.txt). Leave
 out the REM lines: the recording does not contain them either, and with them the program
 would not leave enough memory for its variables on a PC-1500A. The place names, treasures and
 some messages contain small letters (SML key).
 
 ## Older versions
 
+- Version 2.4 (an eighth of the priests defect, no divisors at fearful places) is kept in
+  [archive/v2.4](archive/v2.4).
 - Version 2.3 (Ghosts with API keys and Hackers with Killer Disks, gold, weak spots) is kept in
   [archive/v2.3](archive/v2.3).
 - Version 2.2 (with garrisons, weak spots ×1.5 and lower prices) is kept in
