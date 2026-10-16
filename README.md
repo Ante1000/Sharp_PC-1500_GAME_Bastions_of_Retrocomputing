@@ -23,7 +23,7 @@ Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is
 
  **KEYS**
 - **F – Fight:** choose a place, decide how many Killer Disks and API keys to take, then fight
-  or retreat. Every place has a **weak spot** (`WEAK TO K-DISKS`, `KEYS` or `GURUS`): there the hits
+  or retreat. Every place has a **weak spot** (`FEARFUL OF HACKERS`, `GHOSTS` or `GURUS`): there the hits
   of that weapon count three times. Every Killer Disk and API key is used only once: in each round each hacker runs
   one disk and each ghost uses one key, until they are all used; those not used come back to
   you after a won fight. The Tech Priests strike your hackers first, then your ghosts: when the
