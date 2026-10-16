@@ -24,7 +24,7 @@ Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is
  **KEYS**
 - **F – Fight:** choose a place, decide how many Killer Disks and API keys to take, then fight
   or retreat. Every place has a **weak spot** (`WEAK TO K-DISKS`, `KEYS` or `GURUS`): there the hits
-  of that weapon count one and a half times. Every Killer Disk and API key is used only once: in each round each hacker runs
+  of that weapon count three times. Every Killer Disk and API key is used only once: in each round each hacker runs
   one disk and each ghost uses one key, until they are all used; those not used come back to
   you after a won fight. The Tech Priests strike your hackers first, then your ghosts: when the
   last of them fall, `NO HACKERS LEFT!` or `NO GHOSTS LEFT!` appears, and the disks or keys still
@@ -35,16 +35,14 @@ Nobody gets hurt in this war: it is fought with code. A hacker, ghost or guru is
   round screen (`ROUND3:CC 120 vs YOU 45  S`): press **S to surrender**. You keep your people
   and the unused disks and keys, and the place keeps only the Tech Priests it has left, so your
   next attack is easier. A conquered place gives you its gold and retro stuff, some Killer
-  Disks and its own retro treasure, a sixth of its Tech Priests defect to you as hackers, and new ghosts join you. Then
-  you may leave hackers there as a **garrison** (`GARRISON (MAX n) ?`): they leave your army for
-  good, but they can hold the place when it rises.
-- **B – Buy:** Killer Disks (price 8 gold), API keys (price 20 gold), gurus (price 400 gold) and hackers (80 gold).
-- **S – Sell:** retro stuff, hackers (50 gold) and gurus (320 gold). Retro stuff sells for 475
+  Disks and its own retro treasure, a sixth of its Tech Priests defect to you as hackers, and new ghosts join you.
+- **B – Buy:** Killer Disks (price 10 gold), API keys (price 26 gold), gurus (price 520 gold) and hackers (104 gold).
+- **S – Sell:** retro stuff, hackers (65 gold) and gurus (416 gold). Retro stuff sells for 475
   gold at the start; after every fight its price rises by 0-100 gold, and every sale lowers it
   by 0-250 gold, but never below 250, so on average it stays level. The game first shows how many of each you have.
 - **R – Resources** and **E – End** (E shows `Y=END`: Y ends the game, any other key brings the menu back).
 
-Every element counts: Killer Disks need Hackers to run them, Ghosts need API keys to create malicious code, Hackers protect the Ghosts, Gurus do what disks and demonic code cannot, and garrisons keep the places you have won. Leave any of them out and you win clearly less often.
+Every element counts: Killer Disks need Hackers to run them, Ghosts need API keys to create malicious code, Hackers protect the Ghosts, and Gurus do what disks and demonic code cannot. Leave any of them out and you win clearly less often.
 
 The first places are easy and every next one is harder. Places 7, 8 and 9 are rich places,
 with twice as many Tech Priests and more than twice as much gold, but not twice as much retro
@@ -52,11 +50,10 @@ stuff: what one of them gives you is not enough for the next one. Save gold and 
 from the first places; if you use up all your gold in every fight, you will not get through
 Hohensalzburg and the Vatican (place 9), the richest of all. Once you have conquered Avila
 (place 5) or a higher place, the Tech Priests fight back: from time to time one of your places
-rises. Its garrison may hold it (each garrison hacker holds off 40 of the Tech Priests the place
-had at the start); otherwise it breaks free with three times as many Tech Priests, and winning it
-back gives only a fifth of its gold and retro stuff.
+breaks free and gets back the Tech Priests it had at the start. Winning it back gives half its
+gold and half its retro stuff (no treasure): a chance to collect a little more for the Vatican.
 
-Full rules: [instructions_v2.2.pdf](instructions_v2.2.pdf) ([instructions_v2.2.docx](instructions_v2.2.docx)).
+Full rules: [instructions_v2.3.pdf](instructions_v2.3.pdf) ([instructions_v2.3.docx](instructions_v2.3.docx)).
 
 ## Installation
 
@@ -67,17 +64,19 @@ Radio Shack printer/cassette interface).
 1. Switch off the computer, insert it into the CE-150 and connect the audio output of a
    computer or player to the EAR jack of the CE-150.
 2. Switch on, select PRO mode and type `NEW0` [ENTER], then `CLOAD` [ENTER].
-3. Play [bastions-v2.2.wav](bastions-v2.2.wav) (name on the tape: `BASTIONS`,
+3. Play [bastions-v2.3.wav](bastions-v2.3.wav) (name on the tape: `BASTIONS`,
    about 7 minutes).
 4. Select RUN mode and type `RUN` [ENTER].
 
-You can also type in the listing [bastions_of_retrocomputing-v2.2.txt](bastions_of_retrocomputing-v2.2.txt). Leave
+You can also type in the listing [bastions_of_retrocomputing-v2.3.txt](bastions_of_retrocomputing-v2.3.txt). Leave
 out the REM lines: the recording does not contain them either, and with them the program
 would not leave enough memory for its variables on a PC-1500A. The place names, treasures and
 some messages contain small letters (SML key).
 
 ## Older versions
 
+- Version 2.2 (with garrisons, weak spots ×1.5 and lower prices) is kept in
+  [archive/v2.2](archive/v2.2).
 - Version 2.1 (still called PROFANE ATTACK: Hackers and Ghosts without disks or keys cannot attack,
   K-Disks are stopped by the firewalls in the first round) is kept in [archive/v2.1](archive/v2.1).
 - Version 2.0 (the same IT world, without weak spots and garrisons, with stronger gurus) is kept
