@@ -11,7 +11,7 @@ A strategy game in BASIC for the Sharp PC-1500, PC-1500A and Tandy PC-2.
 Nobody gets hurt in this war: it is fought with code. A hacker or guru is eliminated when the Tech Priests defeat their solution, their code or their system, and leaves the battlefield in one piece for a long relaxation and a complete rewrite; Tech Priests fall the same way, when their systems crash, and spend the rest of the war in the Cathodic Church's retreat centre, waiting for the main spiritual help desk.
 
 - **Hackers** attack with their own code and methods: unholy code that finds every flaw in the Tech Priests' systems, malicious scripts, self-replicating worms, infinite loops. They also throw the Daemons and Trojans you take into the fight, and they stand in the front line: the Tech Priests strike them first. A sixteenth of the Tech Priests of a conquered place defect to you as new Hackers; you can also hire them.
-- **Gurus** fight in every fight, all of them, at the end of every round. They strike with a huge, meticulously prepared Dependency Hell of links and corruption that paralyses the Tech Priests' systems - and the power of Gurus is monstrous. They stay with you for the next fights, but Tech Priests hunt them, above all when they are far outnumbered. Sometimes some Gurus join you after a won fight.
+- **Gurus** fight in every fight, all of them, at the end of every round. Their weapon is Dependency Hell: they tangle the Tech Priests' systems in conflicting library versions, circular dependencies, broken links and corrupted files and data, until nothing can be built or started any more - and the power of Gurus is monstrous. They stay with you for the next fights, but Tech Priests hunt them, above all when they are far outnumbered. Sometimes some Gurus join you after a won fight.
 - **Daemons** (cheap: a hit eliminates one Tech Priest) and **Trojans** (a hit eliminates three) are weapons: your Hackers throw a sixth of what you took in every round, as long as at least one of them still fights.
 
  **KEYS**
@@ -23,6 +23,8 @@ Nobody gets hurt in this war: it is fought with code. A hacker or guru is elimin
   weapons are not thrown any more (`NO HACKERS LEFT!`). At a place fearful of Gurus bring Gurus. From the second round on, while you have fewer fighters than the
   Tech Priests, `S` appears on the round screen (`ROUND3:CC 120 vs YOU 45  S`): press **S to surrender**:
   you keep your fighters and the weapons not thrown, and the place keeps only the Tech Priests it has left.
+  Otherwise the fight goes on to the last fighter: when all your fighters fall, it is `NO ONE LEFT!` and
+  `GAME OVER` - even if some Hackers stayed at home.
   A conquered place gives you its tokens, retro stuff, Daemons and Trojans (never the kind it fears),
   its own retro treasure, new Hackers and, with a chance of one half, some Gurus.
 - **B – Buy:** Hackers (104 tokens), Gurus (520), Daemons (10) and Trojans (30).
