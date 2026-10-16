@@ -42,7 +42,7 @@
 226 IF K / 2 > INT (K / 2) LET P = P / 2 : Y = INT (Y / 2)
 227 PRINT STR$ Y; " RETRO STUFF, "; STR$ P; " GOLD"
 228 F = N + WK : F = F - 3 * INT (F / 3) : T = Y
-229 PRINT "FEARFUL OF "; MID$ ("HACKERSGHOSTS  GURUS ", 7 * F + 1, 7)
+229 PRINT "FEARFUL OF "; MID$ ("HACKERSGHOSTS GURUS  ", 7 * F + 1, 7)
 230 L$(0) = "K-DISKS" : Y = CR : GOSUB 921 : C = X : IF X > Y BEEP 1 : GOTO 230
 240 L$(0) = "API KEYS" : Y = BS : GOSUB 921 : IF X > Y BEEP 1 : GOTO 240
 250 B = X : Y = T
