@@ -31,7 +31,7 @@ Nobody gets hurt in this war: it is fought with code. A hacker or guru is elimin
 - **S – Sell:** retro stuff, Daemons (5 tokens) and Trojans (15). Retro stuff sells for 60 tokens at the
   start; after every fight its price rises by 0-20, and every sale lowers it by 0-40, but never below 35:
   it slowly rises for a player who sells now and then.
-- **T – Tax:** every place you win (or win back) adds three times its tokens to the tax money; T pays it all out (`GOT 345 TOKENS`) and again whatever has been gathered since. The first T also lets your places break free (see below). The tax is where you get the tokens for places 7, 8 and 9.
+- **T – Tax:** every place you win (or win back) adds six times its tokens to the tax money; T pays it all out (`GOT 345 TOKENS`) and again whatever has been gathered since. The first T also lets your places break free (see below). The tax is where you get the tokens for places 7, 8 and 9.
 - **R – Resources** (shown as `RS` in the menu `FIGHT/BUY/SELL/TAX/RS/END?`) and **E – End** (E shows `Y=END`: Y ends the game, any other key brings the menu back).
 
 Every element counts: Hackers carry the fight and throw the weapons, Daemons are cheap, Trojans hit hard, and Gurus do what Hackers and weapons cannot - above all at places fearful of Gurus. Leave any of them out and you win clearly less often.
