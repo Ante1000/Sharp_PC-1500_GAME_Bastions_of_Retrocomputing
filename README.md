@@ -28,22 +28,23 @@ Nobody gets hurt in this war: it is fought with code. A hacker or guru is elimin
   A conquered place gives you its tokens, retro stuff, Daemons and Trojans (never the kind it fears),
   its own retro treasure, new Hackers and, with a chance of one half, some Gurus.
 - **B – Buy:** Hackers (104 tokens), Gurus (520), Daemons (10) and Trojans (30).
-- **S – Sell:** retro stuff, Daemons (5 tokens) and Trojans (15). Retro stuff sells for 110 tokens at the
-  start; after every fight its price rises by 0-20, and every sale lowers it by 0-40, but never below 60:
+- **S – Sell:** retro stuff, Daemons (5 tokens) and Trojans (15). Retro stuff sells for 60 tokens at the
+  start; after every fight its price rises by 0-20, and every sale lowers it by 0-40, but never below 35:
   it slowly rises for a player who sells now and then.
-- **R – Resources** and **E – End** (E shows `Y=END`: Y ends the game, any other key brings the menu back).
+- **T – Tax:** every place you win (or win back) adds three times its tokens to the tax money; T pays it all out (`GOT 345 TOKENS`) and again whatever has been gathered since. The first T also lets your places break free (see below). The tax is where you get the tokens for places 7, 8 and 9.
+- **R – Resources** (shown as `RS` in the menu `FIGHT/BUY/SELL/TAX/RS/END?`) and **E – End** (E shows `Y=END`: Y ends the game, any other key brings the menu back).
 
 Every element counts: Hackers carry the fight and throw the weapons, Daemons are cheap, Trojans hit hard, and Gurus do what Hackers and weapons cannot - above all at places fearful of Gurus. Leave any of them out and you win clearly less often.
 
 The first places are easy and every next one is harder. Places 7, 8 and 9 are rich places,
 with twice as many Tech Priests and more than twice as many tokens, but not twice as much retro
 stuff: what one of them gives you is not enough for the next one. Save tokens and retro stuff
-from the first places. Once you have conquered Avila (place 5) or a higher place, the Tech Priests
-fight back: from time to time one of your places breaks free and gets back the Tech Priests it had at
+from the first places. Once you have collected the tax for the first time (key T), the Tech Priests
+fight back (before that nothing breaks free): from time to time one of your places breaks free and gets back the Tech Priests it had at
 the start. Winning it back gives half its tokens and half its retro stuff (no treasure): a chance to
 collect a little more for the Vatican (place 9), the richest of all.
 
-Full rules: [instructions_v2.5.pdf](instructions_v2.5.pdf) ([instructions_v2.5.docx](instructions_v2.5.docx)).
+Full rules: [instructions_v2.6.pdf](instructions_v2.6.pdf) ([instructions_v2.6.docx](instructions_v2.6.docx)).
 
 ## Installation
 
@@ -54,17 +55,19 @@ Radio Shack printer/cassette interface).
 1. Switch off the computer, insert it into the CE-150 and connect the audio output of a
    computer or player to the EAR jack of the CE-150.
 2. Switch on, select PRO mode and type `NEW0` [ENTER], then `CLOAD` [ENTER].
-3. Play [bastions-v2.5.wav](bastions-v2.5.wav) (name on the tape: `BASTIONS`,
+3. Play [bastions-v2.6.wav](bastions-v2.6.wav) (name on the tape: `BASTIONS`,
    about 7 minutes).
 4. Select RUN mode and type `RUN` [ENTER].
 
-You can also type in the listing [bastions_of_retrocomputing-v2.5.txt](bastions_of_retrocomputing-v2.5.txt). Leave
+You can also type in the listing [bastions_of_retrocomputing-v2.6.txt](bastions_of_retrocomputing-v2.6.txt). Leave
 out the REM lines: the recording does not contain them either, and with them the program
 would not leave enough memory for its variables on a PC-1500A. The place names, treasures and
 some messages contain small letters (SML key).
 
 ## Older versions
 
+- Version 2.5 (no tax, retro price 110, places break free from place 5) is kept in
+  [archive/v2.5](archive/v2.5).
 - Version 2.4 (an eighth of the priests defect, no divisors at fearful places) is kept in
   [archive/v2.4](archive/v2.4).
 - Version 2.3 (Ghosts with API keys and Hackers with Killer Disks, gold, weak spots) is kept in
